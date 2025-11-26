@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages");
+
+  return pages.map((page) => {
+    // page.id is like "es/home.md" or "en/about.md"
+    const [lang, ...slugParts] = page.id.split("/");
+    const slugBase = slugParts.join("/").replace(/\.md$/, "");
+
+    // Logic for routing:
+    // es/home -> /
+    // es/about -> /about
+    // en/home -> /en
+    // en/about -> /en/about
+
+    let slug;
+
+    if (lang === "es") {
+      slug = slugBase === "home" ? undefined : slugBase;
+    } else {
+      slug = slugBase === "home" ? lang : `${lang}/${slugBase}`;
+    }
+
+    return {
+      params: { slug },
+      props: { page, lang },
+    };
+  });
+}
+
+const { page, lang } = Astro.props;
+const { Content } = await page.render();
+---
+
+<Layout
+  title={page.data.title}
+  description={page.data.description}
+  image={page.data.image}
+  lang={lang}
+>
+  <article
+    class="prose prose-lg prose-headings:text-primary prose-a:text-blue-600 hover:prose-a:text-blue-500 max-w-7xl mx-auto bg-white p-8 rounded-2xl shadow-sm"
+  >
+    <Content />
+  </article>
+</Layout>

@@ -1,0 +1,82 @@
+{
+  "common": {
+    "contact": {
+      "phone": "+57 300 123 4567",
+      "email": "contacto@vibico.org",
+      "address": "Colombia"
+    },
+    "social": {
+      "facebook": "https://facebook.com/vibico",
+      "instagram": "https://instagram.com/vibico",
+      "twitter": "https://twitter.com/vibico"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#0075a2",
+        "secondary": "#33FF57",
+        "background": "#F0F0F0",
+        "text": "#333333"
+      }
+    }
+  },
+  "languages": {
+    "es": {
+      "site": {
+        "title": "VIBICO",
+        "description": "Viajeros en Bicicleta Por Colombia",
+        "logoText": "V I B I C O"
+      },
+      "navigation": [
+        {
+          "label": "Inicio",
+          "href": "/"
+        },
+        {
+          "label": "Nosotros",
+          "href": "/nosotros"
+        },
+        {
+          "label": "Rutas",
+          "href": "/rutas"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog"
+        },
+        {
+          "label": "Contacto",
+          "href": "/contacto"
+        }
+      ]
+    },
+    "en": {
+      "site": {
+        "title": "VIBICO",
+        "description": "Bike Travelers Through Colombia",
+        "logoText": "V I B I C O"
+      },
+      "navigation": [
+        {
+          "label": "Home",
+          "href": "/en"
+        },
+        {
+          "label": "About Us",
+          "href": "/en/about"
+        },
+        {
+          "label": "Routes",
+          "href": "/en/routes"
+        },
+        {
+          "label": "Blog",
+          "href": "/en/blog"
+        },
+        {
+          "label": "Contact",
+          "href": "/en/contact"
+        }
+      ]
+    }
+  }
+}

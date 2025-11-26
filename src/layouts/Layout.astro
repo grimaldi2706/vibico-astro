@@ -1,0 +1,42 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import PrintButton from "../components/PrintButton.astro";
+import config from "../config.json";
+import "../styles/global.css";
+
+interface Props {
+	title: string;
+	description?: string;
+	image?: string;
+	lang?: string;
+}
+
+const { title, image, lang = "es" } = Astro.props;
+const t =
+	config.languages[lang as keyof typeof config.languages] ||
+	config.languages.es;
+const description = Astro.props.description || t.site.description;
+const fullTitle = `${title} | ${t.site.title}`;
+---
+
+<!doctype html>
+<html lang={lang}>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/jpeg" href="/logo-vibico.jpg" />
+		<meta name="generator" content={Astro.generator} />
+		{image && <meta property="og:image" content={image} />}
+		<title>{fullTitle}</title>
+	</head>
+	<body class="flex flex-col min-h-screen">
+		<Header lang={lang} />
+		<main class="flex-grow container mx-auto px-4 py-8">
+			<slot />
+		</main>
+		<PrintButton />
+		<Footer lang={lang} />
+	</body>
+</html>

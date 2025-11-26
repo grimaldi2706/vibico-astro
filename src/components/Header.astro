@@ -1,0 +1,110 @@
+---
+import config from "../config.json";
+
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const t =
+  config.languages[lang as keyof typeof config.languages] ||
+  config.languages.es;
+
+const targetLang = lang === "es" ? "en" : "es";
+const targetLabel = lang === "es" ? "EN" : "ES";
+const targetHref = lang === "es" ? "/en" : "/";
+---
+
+<header
+  class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 print:hidden"
+>
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <a
+      href={lang === "es" ? "/" : `/${lang}`}
+      class="flex items-center gap-3 text-2xl font-bold text-primary tracking-tighter hover:scale-105 transition-transform"
+    >
+      <img
+        src="/logo-vibico.jpg"
+        alt="VIBICO Logo"
+        class="h-14 w-auto rounded-full shadow-sm"
+      />
+      <span>{t.site.logoText}</span>
+    </a>
+
+    <div class="hidden md:flex items-center space-x-6">
+      <nav class="flex space-x-6">
+        {
+          t.navigation.map((item) => (
+            <a
+              href={item.href}
+              class="text-gray-600 hover:text-primary font-medium transition-colors"
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <a
+        href={targetHref}
+        class="px-3 py-1 rounded-full border border-gray-300 text-sm font-semibold text-gray-600 hover:bg-primary hover:text-white hover:border-primary transition-all"
+        aria-label={`Switch to ${targetLabel}`}
+      >
+        {targetLabel}
+      </a>
+    </div>
+
+    <button
+      id="mobile-menu-btn"
+      class="md:hidden text-gray-600 focus:outline-none"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg"
+  >
+    <nav class="flex flex-col p-4 space-y-3">
+      {
+        t.navigation.map((item) => (
+          <a
+            href={item.href}
+            class="text-gray-600 hover:text-primary font-medium block"
+          >
+            {item.label}
+          </a>
+        ))
+      }
+      <a
+        href={targetHref}
+        class="text-gray-600 hover:text-primary font-medium block pt-2 border-t border-gray-100 mt-2"
+      >
+        Cambiar a {targetLabel}
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById("mobile-menu-btn");
+  const menu = document.getElementById("mobile-menu");
+
+  btn?.addEventListener("click", () => {
+    menu?.classList.toggle("hidden");
+  });
+</script>
