@@ -10,9 +10,15 @@ const t =
   config.languages[lang as keyof typeof config.languages] ||
   config.languages.es;
 
+const getPath = (path: string) => {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+  return path === "/" ? base || "/" : `${base}${path}`;
+};
+
 const targetLang = lang === "es" ? "en" : "es";
 const targetLabel = lang === "es" ? "EN" : "ES";
-const targetHref = lang === "es" ? "/en" : "/";
+const targetHref = getPath(lang === "es" ? "/en" : "/");
+const logoSrc = getPath(config.common.logo);
 ---
 
 <header
@@ -20,11 +26,11 @@ const targetHref = lang === "es" ? "/en" : "/";
 >
   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
     <a
-      href={lang === "es" ? "/" : `/${lang}`}
+      href={getPath(lang === "es" ? "/" : `/${lang}`)}
       class="flex items-center gap-3 text-2xl font-bold text-primary tracking-tighter hover:scale-105 transition-transform"
     >
       <img
-        src="/logo-vibico.jpg"
+        src={logoSrc}
         alt="VIBICO Logo"
         class="h-14 w-auto rounded-full shadow-sm"
       />
@@ -36,7 +42,7 @@ const targetHref = lang === "es" ? "/en" : "/";
         {
           t.navigation.map((item) => (
             <a
-              href={item.href}
+              href={getPath(item.href)}
               class="text-gray-600 hover:text-primary font-medium transition-colors"
             >
               {item.label}
@@ -83,7 +89,7 @@ const targetHref = lang === "es" ? "/en" : "/";
       {
         t.navigation.map((item) => (
           <a
-            href={item.href}
+            href={getPath(item.href)}
             class="text-gray-600 hover:text-primary font-medium block"
           >
             {item.label}

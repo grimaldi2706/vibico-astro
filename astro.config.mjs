@@ -9,5 +9,5 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: 'https://grimaldi2706.github.io',
-  base: 'vibico-astro',
+  base: '/vibico-astro',
 });
