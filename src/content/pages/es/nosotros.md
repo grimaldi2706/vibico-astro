@@ -3,9 +3,13 @@ title: "Nosotros"
 description: "Conoce más sobre el proyecto VIBICO"
 ---
 
-# Sobre VIBICO
+## Sobre VIBICO
 
-VIBICO nace del amor por el cicloturismo y la belleza de los paisajes colombianos.
+VIBICO nace el 11 septiembre de 2015 por el amor al cicloturismo y la belleza de los paisajes colombianos.
+
+En el año 2023 se consolidó formalmente como una fundación ante la Cámara de Comercio de Bogotá.
+
+Somos una red de apoyo informativo diseñada exclusivamente para viajeros que recorren Colombia en bicicleta.
 
 ## Nuestra Misión
 
