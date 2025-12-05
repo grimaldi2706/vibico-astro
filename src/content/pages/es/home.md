@@ -5,7 +5,9 @@ image: "public/imagen-principal.jpg"
 ---
 
 ## 🌍 Bienvenidos a VIBICO
-Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misión es apoyar a cicloturistas en Colombia y otros países. Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.
+Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misión es apoyar a cicloturistas en Colombia y otros países. 
+
+Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.
 
 📞 Contacto oficial: **+57 3155730212**
 <img src="/vibico-astro/imagen-principal.jpg" alt="Inicio" class="w-full h-96 object-cover rounded-xl mb-8 shadow-md">
@@ -15,7 +17,7 @@ Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misi�
 - **Rutas detalladas**: Mapas, altimetría y puntos de interés.
 - **Consejos de viaje**: Qué llevar, dónde dormir y cómo prepararte.
 - **Números de Emergencia**: Contactos clave para asistencia durante el viaje.
-- **Información de Viajeros**:Experiencias reales: cruces fronterizos, trámites, logística del viaje
+- **Información de Viajeros**: Cruces fronterizos, trámites, logística del viaje
 - **Historias**: Relatos de otros viajeros que inspiran.
 
 ```
