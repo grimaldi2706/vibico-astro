@@ -4,30 +4,101 @@ description: "Bienvenido a VIBICO - Viajeros en Bicicleta Por Colombia"
 image: "public/imagen-principal.jpg"
 ---
 
-## 🌍 Bienvenidos a VIBICO
+## 🏞️ Bienvenidos a VIBICO
+
+**VIBICO** nació el **11 de septiembre de 2015** en Bogotá.\
+En **2023**, se constituyó formalmente como **fundación** ante la Cámara
+de Comercio de Bogotá.
+
 Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misión es apoyar a cicloturistas en Colombia y otros países. 
 
 Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.
 
 📞 Contacto oficial: **+57 3155730212**
+
 <img src="/vibico-astro/imagen-principal.jpg" alt="Inicio" class="w-full h-96 object-cover rounded-xl mb-8 shadow-md">
 
 ## 📌 ¿Qué encontrarás aquí?
 
-- **Rutas detalladas**: Mapas, altimetría y puntos de interés.
-- **Consejos de viaje**: Qué llevar, dónde dormir y cómo prepararte.
-- **Números de Emergencia**: Contactos clave para asistencia durante el viaje.
-- **Información de Viajeros**: Cruces fronterizos, trámites, logística del viaje
-- **Historias**: Relatos de otros viajeros que inspiran.
+- 🛣️**Rutas detalladas**: Mapas, altimetría y puntos de interés.
+- 📜**Consejos de viaje**: Qué llevar, dónde dormir y cómo prepararte.
+- 📞**Números de Emergencia**: Contactos clave para asistencia durante el viaje.
+- 📚**Información de Viajeros**: Cruces fronterizos, trámites, logística del viaje
+- 📝**Historias**: Relatos de otros viajeros que inspiran.
+
+## 🌱 Promovemos la movilidad sostenible
+
+Inspiramos el uso de la bicicleta como medio de transporte y como forma
+de turismo responsable en Colombia.
+
+## 💸 Apoya Nuestra Red
+
+Nuestros servicios son **gratuitos**, pero mantener la plataforma activa
+tiene costos tecnológicos.
+
+Tu **aporte voluntario** nos ayuda a continuar con esta labor y, en el
+futuro, desarrollar una **aplicación móvil para viajeros en bicicleta**.
+
+<div style="
+  display:flex;
+  justify-content:center;
+  gap:16px;
+  margin:20px 0;
+">
+
+  <div style="
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 16px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    transition:0.2s ease;
+  "
+  onmouseover="this.style.background='#f3f3f3'"
+  onmouseout="this.style.background='transparent'">
+    <img src="/vibico-astro/social_media/whatsapp.png" alt="WhatsApp" width="40">
+    <a href="https://wa.me/573155730212" style="text-decoration:none; color:#000; font-weight:500;">
+      WhatsApp
+    </a>
+  </div>
+
+  <div style="
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 16px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    transition:0.2s ease;
+  "
+  onmouseover="this.style.background='#f3f3f3'"
+  onmouseout="this.style.background='transparent'">
+    <img src="/vibico-astro/social_media/paypal.png" alt="PayPal" width="40">
+    <a href="https://www.paypal.com/paypalme/vibico" style="text-decoration:none; color:#000; font-weight:500;">
+      PayPal
+    </a>
+  </div>
+
+</div>
+
+
+**¡Gracias por tu apoyo!**
+
+## ⚠️ Importante
+
+-   No nos hacemos responsables por pérdidas, daños o lesiones durante
+    los viajes o estadías.
+-   Esta página tiene fines informativos y educativos. El uso inadecuado
+    de la información es responsabilidad de cada usuario.
 
 ```
 Espacio Publicitario
-Pauta con nosotros
+🪧 Pauta con nosotros
 ```
 
-¡Únete a la aventura y descubre Colombia sobre dos ruedas!
+🚵‍♀️ ¡Únete a la aventura y descubre Colombia sobre dos ruedas! 🚲
 
 > Fundador de la red VIBICO 
 > por Ferney Torres
-
 
