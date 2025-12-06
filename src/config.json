@@ -5,11 +5,65 @@
       "email": "contacto@vibico.org",
       "address": "Colombia"
     },
-    "social": {
+    "payment": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/whatsapp.png"
+      },
+      "paypal": {
+        "label": "PayPal",
+        "url": "https://paypal.com/paypalme/vibico",
+        "image": "/vibico-astro/social_media/paypal.png"
+      }
+    },
+    "social_footer": {
       "facebook": "https://facebook.com/vibico",
       "instagram": "https://instagram.com/vibico",
       "twitter": "https://twitter.com/vibico",
       "paypal": "https://paypal.com/paypalme/vibico"
+    },
+    "social": {
+      "instagram": {
+        "label": "Instagram",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/instagram.png"
+      },
+      "perfil_facebook": {
+        "label": "Perfil",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/facebook.png"
+      },
+      "grupo_facebook": {
+        "label": "Grupo",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/facebook.png"
+      },
+      "pagina_facebook": {
+        "label": "Pagina",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/facebook.png"
+      },
+      "grupo_whatsapp": {
+        "label": "Grupo",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/whatsapp.png"
+      },
+      "tiktok": {
+        "label": "Tiktok",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/tiktok.png"
+      },
+      "strava": {
+        "label": "Strava",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/strava.png"
+      },
+      "polarsteps": {
+        "label": "Polar Steps",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/polarsteps.png"
+      }
     },
     "theme": {
       "colors": {

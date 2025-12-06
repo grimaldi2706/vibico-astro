@@ -5,12 +5,12 @@ image: "public/imagen-principal.jpg"
 ---
 import config from '../../../config.json';
 
-## 🏞️ Bienvenidos a {config.languages.es.site.title}
-
+## 🏞️ Bienvenidos a VIBICO
+{/*
 **VIBICO** nació el **11 de septiembre de 2015** en Bogotá.\
 En **2023**, se constituyó formalmente como **fundación** ante la Cámara
 de Comercio de Bogotá.
-
+*/}
 Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misión es apoyar a cicloturistas en Colombia y otros países. 
 
 Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.
@@ -27,6 +27,38 @@ Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de v
 - 📚**Información de Viajeros**: Cruces fronterizos, trámites, logística del viaje
 - 📝**Historias**: Relatos de otros viajeros que inspiran.
 
+## 💻 Principales redes sociales de la red Vibico
+
+<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
+  {
+    Object.entries(config.common.social).map(([key, item]) => (
+      <div
+        style="
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          gap:10px;
+          padding:5px 5px;
+          width:45%;        /* 🔥 CLAVE: permite 2 por fila en celular */
+          max-width:200px;  /* mantiene tamaño estable en desktop */
+          background:white;
+          border:1px solid #ddd;
+          border-radius:10px;
+          box-shadow:0 2px 4px rgba(0,0,0,0.1);
+          transition:background 0.2s ease, transform 0.2s ease;"
+        onmouseover="this.style.background='#f3f3f3'; this.style.transform='scale(1.02)'"
+        onmouseout="this.style.background='white'; this.style.transform='scale(1)'">
+
+        <img src={item.image} alt={item.label} width="35" />
+        <a href={item.url} style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
+          {item.label}
+        </a>
+      </div>
+    ))
+  }
+</div>
+
+
 ## 🌱 Promovemos la movilidad sostenible
 
 Inspiramos el uso de la bicicleta como medio de transporte y como forma
@@ -40,49 +72,34 @@ tiene costos tecnológicos.
 Tu **aporte voluntario** nos ayuda a continuar con esta labor y, en el
 futuro, desarrollar una **aplicación móvil para viajeros en bicicleta**.
 
-<div style="
-  display:flex;
-  justify-content:center;
-  gap:16px;
-  margin:20px 0;
-">
+<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
+  {
+    Object.entries(config.common.payment).map(([key, item]) => (
+      <div
+        style="
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          gap:10px;
+          padding:5px 5px;
+          width:45%;        /* 🔥 CLAVE: permite 2 por fila en celular */
+          max-width:200px;  /* mantiene tamaño estable en desktop */
+          background:white;
+          border:1px solid #ddd;
+          border-radius:10px;
+          box-shadow:0 2px 4px rgba(0,0,0,0.1);
+          transition:background 0.2s ease, transform 0.2s ease;"
+        onmouseover="this.style.background='#f3f3f3'; this.style.transform='scale(1.02)'"
+        onmouseout="this.style.background='white'; this.style.transform='scale(1)'">
 
-  <div style="
-    display:flex;
-    align-items:center;
-    gap:10px;
-    padding:10px 16px;
-    border:1px solid #ddd;
-    border-radius:10px;
-    transition:0.2s ease;
-  "
-  onmouseover="this.style.background='#f3f3f3'"
-  onmouseout="this.style.background='transparent'">
-    <img src="/vibico-astro/social_media/whatsapp.png" alt="WhatsApp" width="40" />
-    <a href="https://wa.me/573155730212" style="text-decoration:none; color:#000; font-weight:500;">
-      WhatsApp
-    </a>
-  </div>
-
-  <div style="
-    display:flex;
-    align-items:center;
-    gap:10px;
-    padding:10px 16px;
-    border:1px solid #ddd;
-    border-radius:10px;
-    transition:0.2s ease;
-  "
-  onmouseover="this.style.background='#f3f3f3'"
-  onmouseout="this.style.background='transparent'">
-    <img src="/vibico-astro/social_media/paypal.png" alt="PayPal" width="40" />
-    <a href={config.common.social.paypal} style="text-decoration:none; color:#000; font-weight:500;">
-      PayPal
-    </a>
-  </div>
-
+        <img src={item.image} alt={item.label} width="35" />
+        <a href={item.url} style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
+          {item.label}
+        </a>
+      </div>
+    ))
+  }
 </div>
-
 
 **¡Gracias por tu apoyo!**
 

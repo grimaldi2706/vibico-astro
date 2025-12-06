@@ -1,0 +1,114 @@
+---
+title: "Home"
+description: "Welcome to VIBICO - Bicycle Travelers Across Colombia"
+image: "public/imagen-principal.jpg"
+---
+import config from '../../../config.json';
+
+## 🏞️ Welcome to VIBICO
+{/*
+**VIBICO** was born on **September 11, 2015** in Bogotá.\
+In **2023**, it was formally established as a **foundation** before the Bogotá Chamber of Commerce.
+*/}
+We are a community passionate about exploring Colombia by bicycle. Our mission is to support bike travelers in Colombia and other countries.
+
+We offer practical resources, maps, contacts, useful apps, real travel experiences, and a space for radio-style sharing. Everything is designed to promote respect, mutual help, and responsible access to bicycle touring.
+
+📞 Official contact: **{config.common.contact.phone}**
+
+<img src="/vibico-astro/imagen-principal.jpg" alt="Home" class="w-full h-96 object-cover rounded-xl mb-8 shadow-md" />
+
+## 📌 What will you find here?
+
+- 🛣️ **Detailed Routes**: Maps, elevation profiles, and points of interest.
+- 📜 **Travel Tips**: What to bring, where to sleep, and how to prepare.
+- 📞 **Emergency Numbers**: Key contacts for assistance during your trip.
+- 📚 **Traveler Information**: Border crossings, paperwork, travel logistics.
+- 📝 **Stories**: Inspiring stories from other travelers.
+
+## 💻 Main social networks of the Vibico community
+
+<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
+  {
+    Object.entries(config.common.social).map(([key, item]) => (
+      <div
+        style="
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          gap:10px;
+          padding:5px 5px;
+          width:45%;        /* 🔥 KEY: allows 2 per row on mobile */
+          max-width:200px;  /* keeps stable size on desktop */
+          background:white;
+          border:1px solid #ddd;
+          border-radius:10px;
+          box-shadow:0 2px 4px rgba(0,0,0,0.1);
+          transition:background 0.2s ease, transform 0.2s ease;"
+        onmouseover="this.style.background='#f3f3f3'; this.style.transform='scale(1.02)'"
+        onmouseout="this.style.background='white'; this.style.transform='scale(1)'">
+
+        <img src={item.image} alt={item.label} width="35" />
+        <a href={item.url} style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
+          {item.label}
+        </a>
+      </div>
+    ))
+  }
+</div>
+
+## 🌱 We promote sustainable mobility
+
+We inspire the use of bicycles as a means of transportation and as a way to practice responsible tourism in Colombia.
+
+## 💸 Support Our Network
+
+Our services are **free**, but keeping the platform active has technological costs.
+
+Your **voluntary contribution** helps us continue this work and, in the future, develop a **mobile app for bicycle travelers**.
+
+<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
+  {
+    Object.entries(config.common.payment).map(([key, item]) => (
+      <div
+        style="
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          gap:10px;
+          padding:5px 5px;
+          width:45%;        /* 🔥 KEY: allows 2 per row on mobile */
+          max-width:200px;  /* keeps stable size on desktop */
+          background:white;
+          border:1px solid #ddd;
+          border-radius:10px;
+          box-shadow:0 2px 4px rgba(0,0,0,0.1);
+          transition:background 0.2s ease, transform 0.2s ease;"
+        onmouseover="this.style.background='#f3f3f3'; this.style.transform='scale(1.02)'"
+        onmouseout="this.style.background='white'; this.style.transform='scale(1)'">
+
+        <img src={item.image} alt={item.label} width="35" />
+        <a href={item.url} style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
+          {item.label}
+        </a>
+      </div>
+    ))
+  }
+</div>
+
+**Thank you for your support!**
+
+## ⚠️ Important
+
+- We are not responsible for losses, damages, or injuries during trips or stays.
+- This page serves informational and educational purposes. Misuse of the information is the responsibility of each user.
+
+```
+Advertising Space
+🪧 Advertise with us
+```
+
+🚵‍♀️ Join the adventure and discover Colombia on two wheels! 🚲
+
+> Founder of the VIBICO network  
+> by Ferney Torres
