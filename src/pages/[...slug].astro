@@ -8,7 +8,7 @@ export async function getStaticPaths() {
   return pages.map((page) => {
     // page.id is like "es/home.md" or "en/about.md"
     const [lang, ...slugParts] = page.id.split("/");
-    const slugBase = slugParts.join("/").replace(/\.md$/, "");
+    const slugBase = slugParts.join("/").replace(/\.mdx?$/, "");
 
     // Logic for routing:
     // es/home -> /

@@ -3,8 +3,9 @@ title: "Inicio"
 description: "Bienvenido a VIBICO - Viajeros en Bicicleta Por Colombia"
 image: "public/imagen-principal.jpg"
 ---
+import config from '../../../config.json';
 
-## 🏞️ Bienvenidos a VIBICO
+## 🏞️ Bienvenidos a {config.languages.es.site.title}
 
 **VIBICO** nació el **11 de septiembre de 2015** en Bogotá.\
 En **2023**, se constituyó formalmente como **fundación** ante la Cámara
@@ -14,9 +15,9 @@ Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misi�
 
 Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.
 
-📞 Contacto oficial: **+57 3155730212**
+📞 Contacto oficial: **{config.common.contact.phone}**
 
-<img src="/vibico-astro/imagen-principal.jpg" alt="Inicio" class="w-full h-96 object-cover rounded-xl mb-8 shadow-md">
+<img src="/vibico-astro/imagen-principal.jpg" alt="Inicio" class="w-full h-96 object-cover rounded-xl mb-8 shadow-md" />
 
 ## 📌 ¿Qué encontrarás aquí?
 
@@ -57,7 +58,7 @@ futuro, desarrollar una **aplicación móvil para viajeros en bicicleta**.
   "
   onmouseover="this.style.background='#f3f3f3'"
   onmouseout="this.style.background='transparent'">
-    <img src="/vibico-astro/social_media/whatsapp.png" alt="WhatsApp" width="40">
+    <img src="/vibico-astro/social_media/whatsapp.png" alt="WhatsApp" width="40" />
     <a href="https://wa.me/573155730212" style="text-decoration:none; color:#000; font-weight:500;">
       WhatsApp
     </a>
@@ -74,8 +75,8 @@ futuro, desarrollar una **aplicación móvil para viajeros en bicicleta**.
   "
   onmouseover="this.style.background='#f3f3f3'"
   onmouseout="this.style.background='transparent'">
-    <img src="/vibico-astro/social_media/paypal.png" alt="PayPal" width="40">
-    <a href="https://www.paypal.com/paypalme/vibico" style="text-decoration:none; color:#000; font-weight:500;">
+    <img src="/vibico-astro/social_media/paypal.png" alt="PayPal" width="40" />
+    <a href={config.common.social.paypal} style="text-decoration:none; color:#000; font-weight:500;">
       PayPal
     </a>
   </div>

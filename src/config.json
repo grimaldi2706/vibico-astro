@@ -1,14 +1,15 @@
 {
   "common": {
     "contact": {
-      "phone": "+57 300 123 4567",
+      "phone": "+57 3155730212",
       "email": "contacto@vibico.org",
       "address": "Colombia"
     },
     "social": {
       "facebook": "https://facebook.com/vibico",
       "instagram": "https://instagram.com/vibico",
-      "twitter": "https://twitter.com/vibico"
+      "twitter": "https://twitter.com/vibico",
+      "paypal": "https://paypal.com/paypalme/vibico"
     },
     "theme": {
       "colors": {
