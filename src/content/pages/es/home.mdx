@@ -15,9 +15,39 @@ Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misi�
 
 Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.
 
-📞 Contacto oficial: **{config.common.contact.phone}**
-
 <img src="/vibico-astro/imagen-principal.jpg" alt="Inicio" class="w-full h-96 object-cover rounded-xl mb-8 shadow-md" />
+
+## 📞 Contactos oficiales: 
+
+<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
+  {
+    Object.entries(config.common.contacts).map(([key, item]) => (
+      <div
+        style="
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          gap:10px;
+          padding:5px 5px;
+          width:45%;        /* 🔥 CLAVE: permite 2 por fila en celular */
+          max-width:200px;  /* mantiene tamaño estable en desktop */
+          background:white;
+          border:1px solid #ddd;
+          border-radius:10px;
+          box-shadow:0 2px 4px rgba(0,0,0,0.1);
+          transition:background 0.2s ease, transform 0.2s ease;"
+        onmouseover="this.style.background='#f3f3f3'; this.style.transform='scale(1.02)'"
+        onmouseout="this.style.background='white'; this.style.transform='scale(1)'">
+
+        <img src={item.image} alt={item.label} width="35" />
+        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
+          {item.label}
+        </a>
+      </div>
+    ))
+  }
+</div>
+
 
 ## 📌 ¿Qué encontrarás aquí?
 
@@ -50,7 +80,7 @@ Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de v
         onmouseout="this.style.background='white'; this.style.transform='scale(1)'">
 
         <img src={item.image} alt={item.label} width="35" />
-        <a href={item.url} style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
+        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
           {item.label}
         </a>
       </div>
@@ -93,7 +123,7 @@ futuro, desarrollar una **aplicación móvil para viajeros en bicicleta**.
         onmouseout="this.style.background='white'; this.style.transform='scale(1)'">
 
         <img src={item.image} alt={item.label} width="35" />
-        <a href={item.url} style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
+        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#000', fontWeight: 500 }}>
           {item.label}
         </a>
       </div>

@@ -5,6 +5,23 @@
       "email": "contacto@vibico.org",
       "address": "Colombia"
     },
+    "contacts": {
+      "phone": {
+        "label": "+57 3155730212",
+        "url": "tel:+573155730212",
+        "image": "/vibico-astro/social_media/tel.png"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "url": "https://wa.me/573155730212",
+        "image": "/vibico-astro/social_media/whatsapp.png"
+      },
+      "email": {
+        "label": "Correo",
+        "url": "mailto:vibicocolombia@gmail.com",
+        "image": "/vibico-astro/social_media/gmail.png"
+      }
+    },
     "payment": {
       "whatsapp": {
         "label": "WhatsApp",
@@ -26,42 +43,47 @@
     "social": {
       "instagram": {
         "label": "Instagram",
-        "url": "https://wa.me/573155730212",
+        "url": "https://www.instagram.com/vibico_org/",
         "image": "/vibico-astro/social_media/instagram.png"
       },
       "perfil_facebook": {
         "label": "Perfil",
-        "url": "https://wa.me/573155730212",
+        "url": "https://www.facebook.com/VibicoOrg/",
         "image": "/vibico-astro/social_media/facebook.png"
       },
       "grupo_facebook": {
         "label": "Grupo",
-        "url": "https://wa.me/573155730212",
+        "url": "https://www.facebook.com/groups/966471260042273",
         "image": "/vibico-astro/social_media/facebook.png"
       },
       "pagina_facebook": {
         "label": "Pagina",
-        "url": "https://wa.me/573155730212",
+        "url": "https://www.facebook.com/people/Vibico-Org/61584132287297/",
         "image": "/vibico-astro/social_media/facebook.png"
       },
       "grupo_whatsapp": {
         "label": "Grupo",
-        "url": "https://wa.me/573155730212",
+        "url": "https://chat.whatsapp.com/IqSAM6pnwbVHNE8fn4yp1g",
+        "image": "/vibico-astro/social_media/whatsapp.png"
+      },
+      "canal_whatsapp": {
+        "label": "Canal",
+        "url": "https://www.whatsapp.com/channel/0029Va5GdqfGpLHRZ30EvR45g",
         "image": "/vibico-astro/social_media/whatsapp.png"
       },
       "tiktok": {
         "label": "Tiktok",
-        "url": "https://wa.me/573155730212",
+        "url": "https://www.tiktok.com/@vibicocolombia",
         "image": "/vibico-astro/social_media/tiktok.png"
       },
       "strava": {
         "label": "Strava",
-        "url": "https://wa.me/573155730212",
+        "url": "https://www.strava.com/clubs/vibico",
         "image": "/vibico-astro/social_media/strava.png"
       },
       "polarsteps": {
         "label": "Polar Steps",
-        "url": "https://wa.me/573155730212",
+        "url": "https://www.polarsteps.com/VibicoColombia",
         "image": "/vibico-astro/social_media/polarsteps.png"
       }
     },
