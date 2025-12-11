@@ -7,7 +7,7 @@
     },
     "contacts": {
       "phone": {
-        "label": "+57 3155730212",
+        "label": "3155730212",
         "url": "tel:+573155730212",
         "image": "/vibico-astro/social_media/tel.png"
       },
@@ -110,16 +110,16 @@
           "href": "/"
         },
         {
-          "label": "Nosotros",
-          "href": "/nosotros"
+          "label": "Información",
+          "href": "/informacion"
         },
         {
-          "label": "Rutas",
-          "href": "/rutas"
+          "label": "Mapas",
+          "href": "/mapas"
         },
         {
-          "label": "Blog",
-          "href": "/blog"
+          "label": "Comentarios",
+          "href": "/comentarios"
         },
         {
           "label": "Contacto",
