@@ -111,7 +111,17 @@
         },
         {
           "label": "Información",
-          "href": "/informacion"
+          "href": "/informacion",
+          "subitems": [
+            {
+              "label": "Misión",
+              "href": "/informacion#mision"
+            },
+            {
+              "label": "Visión",
+              "href": "/informacion#vision"
+            }
+          ]
         },
         {
           "label": "Mapas",
