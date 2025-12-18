@@ -102,7 +102,46 @@
       "site": {
         "title": "VIBICO",
         "description": "Viajeros en Bicicleta Por Colombia",
-        "logoText": "V I B I C O"
+        "logoText": "V I B I C O",
+        "information": {
+          "invias": {
+            "image": "/vibico-astro/information/invias.png",
+            "title": "Estado de las vías",
+            "description": "INVIAS #767, Envía un mensaje de texto en X(anteriormente twitter) y automáticamente te responderán.",
+            "links": {
+              "x": {
+                "label": "X(Twitter)",
+                "url": "https://x.com/numeral767"
+              },
+              "facebook": {
+                "label": "Facebook",
+                "url": "https://www.facebook.com/Numeral767"
+              }
+            }
+          },
+          "fiebre_amarilla": {
+            "image": "/vibico-astro/information/fiebre_amarilla.png",
+            "title": "Vacunación Fiebre Amarilla",
+            "description": "La vacuna  contra la fiebre amarilla es gratuita  y existen puntos de vacunación en todo el país en las terminales de transporte, aeropuertos y centros de salud para los viajeros. La vacuna se aplica una sola vez. ",
+            "links": {
+              "x": {
+                "label": "Pagina Web",
+                "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/fiebre-amarilla.aspx"
+              }
+            }
+          },
+          "defensoria_ciclistas": {
+            "image": "/vibico-astro/information/defensoria_ciclistas.png",
+            "title": "Defensoría de los Ciclistas",
+            "description": "La vacuna  contra la fiebre amarilla es gratuita  y existen puntos de vacunación en todo el país en las terminales de transporte, aeropuertos y centros de salud para los viajeros. La vacuna se aplica una sola vez. ",
+            "links": {
+              "x": {
+                "label": "Pagina Web",
+                "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/fiebre-amarilla.aspx"
+              }
+            }
+          }
+        }
       },
       "navigation": [
         {
@@ -114,8 +153,8 @@
           "href": "/informacion",
           "subitems": [
             {
-              "label": "Misión",
-              "href": "/informacion#mision"
+              "label": "Información en Ruta",
+              "href": "/informacion#informacionenruta"
             },
             {
               "label": "Visión",
