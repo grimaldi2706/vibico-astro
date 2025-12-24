@@ -426,6 +426,189 @@
               }
             }
           }
+        },
+        "red_de_apoyo": {
+          "label": "Grupos de Whatsapp y Facebook",
+          "description": "Aquí encontrarás grupos de WhatsApp y Facebook de diferentes países, organizados según tu ruta de viaje en bicicleta. Cada grupo tiene administradores y reglas propias; te invitamos a leer la descripción y respetarlas.",
+          "links": {
+            "vivico": {
+              "image": "/vibico-astro/logo-vibico.jpg",
+              "title": "VIBICO",
+              "description": "Grupo de la Red de Apoyo Informativo en Colombia.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://wa.me/573123456789"
+                }
+              }
+            },
+            "colombia": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "COLOMBIA",
+              "description": "Canal Informativo.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://wa.me/573123456789"
+                }
+              }
+            },
+            "compras_ventas_y_trueques": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "COMPRAS, VENTAS Y TRUEQUES",
+              "description": "Compras, ventas y trueques de accesorios de viajeros en bicicleta - América",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/F3GDLZj2AFuCUoioBTxf9H"
+                }
+              }
+            },
+            "ecuador": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "ECUADOR",
+              "description": "Red de Apoyo en Ecuador, Pedir ingreso al grupo de whatsapp.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://api.whatsapp.com/send/?phone=593990212314&text&type=phone_number&app_absent=0"
+                }
+              }
+            },
+            "MEXICO": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "MEXICO",
+              "description": "Red de Apoyo en México, Pedir ingreso al grupo de whatsapp.",
+              "links": {
+                "web": {
+                  "label": "Pagina Web",
+                  "url": "https://racmx.org/"
+                },
+                "facebook": {
+                  "label": "Facebook",
+                  "url": "https://www.facebook.com/groups/racmx"
+                }
+              }
+            },
+            "BRASIL": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "BRASIL",
+              "description": "Red de Apoyo en Brasil, Pedir ingreso al grupo de whatsapp.",
+              "links": {
+                "web": {
+                  "label": "Pagina Web",
+                  "url": "https://hospedal.webnode.page/"
+                },
+                "facebook": {
+                  "label": "Facebook",
+                  "url": "https://www.facebook.com/groups/528270261442278"
+                }
+              }
+            },
+            "ARGENTINA": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "ARGENTINA",
+              "description": "Red de Apoyo en Argentina, Pedir ingreso al grupo de whatsapp.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/J02dVCr4xpF3fI8SZXPgfq"
+                }
+              }
+            },
+            "URUGUAY": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "URUGUAY",
+              "description": "Red de Apoyo en Uruguay, Pedir ingreso al grupo de whatsapp.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/Bbe38e3q4p28c6vZ0s5MXr"
+                }
+              }
+            },
+            "URUCOSTA_RICA": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "COSTA RICA",
+              "description": "Red de Apoyo en Costa Rica, Pedir ingreso al grupo de whatsapp.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/DpamdOIpeT37zrHqHwyOre"
+                }
+              }
+            },
+            "PARAGUAY": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "PARAGUAY",
+              "description": "Red de Apoyo a viajeros en Paraguay.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/LCrFO7Q2RJHL1j4fEQ8wSV?mode=ac_t"
+                }
+              }
+            },
+            "CYCLING_SOUTH_AMERICA": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "CYCLING SOUTH AMERICA",
+              "description": "Red de Apoyo en Sudamérica, solo en Inglés.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/FARdXMduaXr3rvGdYYve7r"
+                }
+              }
+            },
+            "FAMILIA_CYCLO_VIAJEROS_DE_CENTRO_AMERICA": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "FAMILIA CYCLO VIAJEROS DE CENTRO AMERICA",
+              "description": "Pedir ingreso al grupo de whatsapp, escribir a los siguientes numeros.",
+              "links": {
+                "tel1": {
+                  "label": "+501 623-1802",
+                  "url": "tel:5016231802"
+                },
+                "tel2": {
+                  "label": "+502 5914-8981",
+                  "url": "tel:50259148981"
+                }
+              }
+            },
+            "CYCLE_TRAVELERS": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "CYCLE TRAVELERS",
+              "description": "Pedir ingreso al grupo de whatsapp.",
+              "links": {
+                "instagram": {
+                  "label": "Instagram",
+                  "url": "https://www.instagram.com/hectorinomtb/"
+                }
+              }
+            },
+            "RIDING_THE_AMERICAS": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "RIDING THE AMERICAS",
+              "description": "Red de Apoyo en América del Norte.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/C4YyCNdHzVl3TOl91BeiJo"
+                }
+              }
+            },
+            "ENCUENTRO_URUGUAY": {
+              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "title": "ENCUENTRO URUGUAY",
+              "description": "Red de Apoyo en Uruguay.",
+              "links": {
+                "whatsapp": {
+                  "label": "WhatsApp",
+                  "url": "https://chat.whatsapp.com/ItIWsardV0s6ZtitMT0JMg"
+                }
+              }
+            }
+          }
         }
       },
       "navigation": [
