@@ -6,7 +6,9 @@ image: "public/imagen-principal.jpg"
 import config from '../../../config.json';
 
 <div id="informacionenruta">
-  <h2 style="margin-top: -5px;">Información en Ruta</h2>
+  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+    Información en Ruta
+  </h2>
   <div class="grid grid-cols-1 md:grid-cols-4 gap-6 justify-items-center">
   {
   Object.entries(config.languages[props.lang].site.information).map(([key, item]) => (
@@ -32,8 +34,8 @@ import config from '../../../config.json';
         {
           Object.entries(item.links).map(([keys, link]) => (
             <a
-              href="#" target="_blank" rel="noopener noreferrer"
-              class="inline-flex items-center justify-center px-5 my-2 rounded-full bg-gray-200 !text-black font-semibold no-underline hover:bg-gray-300 transition">
+              href={link.url} target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline">
               {link.label}
             </a>
           ))
@@ -46,6 +48,54 @@ import config from '../../../config.json';
   }
 </div>
 </div>
+
+<div id="numerosdeemergencia" class="mt-16">
+  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+    Números de Emergencia
+  </h2>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 justify-items-center">
+    {
+      Object.entries(
+        config.languages[props.lang].site.emergency_numbers
+      ).map(([key, item]) => (
+        <div
+          class="w-full max-w-40 bg-white rounded-2xl border border-neutral-200 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center p-4
+          "
+        >
+          
+          <h3 class="text-sm font-semibold text-primary mb-3">
+            {item.title}
+          </h3>
+
+          
+          <img
+            src={item.image}
+            alt={item.title}
+            class="w-20 h-20 object-contain mb-4"
+          />
+
+          
+          <div class="mt-auto flex flex-col gap-2">
+            {
+              Object.entries(item.tel).map(([keys, link]) => (
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline"
+                >
+                  {link.label}
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</div>
+
 <section id="vision">
 
   <h2 class="text-3xl font-bold mb-4 text-primary">Nuestra Visión</h2>

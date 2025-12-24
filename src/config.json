@@ -124,7 +124,7 @@
             "title": "Vacunación Fiebre Amarilla",
             "description": "La vacuna  contra la fiebre amarilla es gratuita  y existen puntos de vacunación en todo el país en las terminales de transporte, aeropuertos y centros de salud para los viajeros. La vacuna se aplica una sola vez. ",
             "links": {
-              "x": {
+              "web": {
                 "label": "Pagina Web",
                 "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/fiebre-amarilla.aspx"
               }
@@ -135,9 +135,294 @@
             "title": "Defensoría de los Ciclistas",
             "description": "La vacuna  contra la fiebre amarilla es gratuita  y existen puntos de vacunación en todo el país en las terminales de transporte, aeropuertos y centros de salud para los viajeros. La vacuna se aplica una sola vez. ",
             "links": {
-              "x": {
+              "web": {
                 "label": "Pagina Web",
                 "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/fiebre-amarilla.aspx"
+              }
+            }
+          },
+          "politica_fronteras": {
+            "image": "/vibico-astro/information/politica_fronteras.png",
+            "title": "Política de Fronteras",
+            "description": " Implementación de la Política de Fronteras.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://2022.dnp.gov.co/programas/desarrollo-territorial/Ordenamiento%20y%20Desarrollo%20Territorial/Paginas/implementacion-de-la-politica-de-fronteras.aspx"
+              }
+            }
+          },
+          "dian": {
+            "image": "/vibico-astro/information/dian.png",
+            "title": "DIAN",
+            "description": "Números telefónicos de fronteras Colombianas.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.dian.gov.co/aduanas/Paginas/Pasos-de-Frontera.aspx"
+              }
+            }
+          },
+          "migracion_colombia": {
+            "image": "/vibico-astro/information/migracion_colombia.png",
+            "title": "Migración Colombia",
+            "description": "Ingreso y salida de Extranjeros.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.migracioncolombia.gov.co/subdireccion-de-control-migratorio/ingreso-y-salida-de-extranjeros"
+              }
+            }
+          },
+          "fronteras_terrestres": {
+            "image": "/vibico-astro/information/cancilleria.png",
+            "title": "Fronteras Terrestres",
+            "description": "Colombia, Brasil, Ecuador, Panamá, Venezuela, Perú",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.cancilleria.gov.co/politica/fronteras-terrestres"
+              }
+            }
+          },
+          "ica": {
+            "image": "/vibico-astro/information/ica.png",
+            "title": "Ingresos y Salidas de Perros y Gatos",
+            "description": "Ingresos y Salidas de Perros y Gatos.",
+            "links": {
+              "web1": {
+                "label": "Pagina Web 1",
+                "url": "https://www.ica.gov.co/importacion-y-exportacion/otros-procedimientos/requisitos-para-importar-mascotas/salida-de-perros-y-gatos-desde-colombia"
+              },
+              "web2": {
+                "label": "Pagina Web 2",
+                "url": "https://www.ica.gov.co/importacion-y-exportacion/otros-procedimientos/requisitos-para-importar-mascotas/ingreso-de-perros-y-gatos-a-colombia"
+              },
+              "web3": {
+                "label": "Pagina Web 3",
+                "url": "https://www.ica.gov.co/importacion-y-exportacion/otros-procedimientos/requisitos-para-importar-mascotas.aspx"
+              }
+            }
+          },
+          "salida_ingreso_niños_jovenes": {
+            "image": "/vibico-astro/information/cancilleria.png",
+            "title": "Salida e Ingreso de Niños y Jóvenes Menores de Edad",
+            "description": "Requisitos Migratorios para Salida e Ingreso de Niños y Jóvenes Menores de Edad.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.cancilleria.gov.co/newsroom/news/salir-pais-nino-nina-o-adolescente-importante-conocer-normas-establecen-requisitos"
+              }
+            }
+          },
+          "prorrogas": {
+            "image": "/vibico-astro/information/prorrogas.png",
+            "title": "Prórrogas",
+            "description": "Prórrogas de 90 días en Colombia.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.gov.co/"
+              }
+            }
+          },
+          "ciclo_ruta_bogota": {
+            "image": "/vibico-astro/information/ciclo_ruta_bogota.png",
+            "title": "Ciclo Ruta Bogotá",
+            "description": "Actualmente Bogotá cuenta con 630 kilómetros de carriles para ciclistas, que facilitan la movilidad en bici y que también permiten la conectividad con el Sistema de Transporte Público de la ciudad, promoviendo así una movilidad más sostenible, asequible y segura.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.movilidadbogota.gov.co/web/mapa_de_ciclorrutas_de_bogota"
+              }
+            }
+          },
+          "registro_bici": {
+            "image": "/vibico-astro/information/registro_bici.png",
+            "title": "Registro Bici",
+            "description": "El Registro Bici permite asociar los datos personales de los ciudadanos con los de su bicicleta. Este instrumento le facilita a los ciclistas demostrar la propiedad de su vehículo ante un posible hurto y a la Policía, regresar de manera ágil las bicicletas recuperadas.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://registrobicibogota.movilidadbogota.gov.co/#!/"
+              }
+            }
+          },
+          "mapa_cobertura": {
+            "image": "/vibico-astro/information/mapa_cobertura.png",
+            "title": "Mapa de Cobertura",
+            "description": "Este mapa representa la cobertura de la red móvil 2G, 3G, 4G y 5G Movistar Movil.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.nperf.com/es/map/CO/-/-/signal?ll=20&lg=0&zoom=3"
+              }
+            }
+          }
+        },
+        "emergency_numbers": {
+          "123": {
+            "image": "/vibico-astro/emergency_numbers/123.png",
+            "title": "Numero unico de emergencia a nivel nacional",
+            "description": "Número único de emergencia a nivel nacional.",
+            "tel": {
+              "call": {
+                "label": "123",
+                "url": "tel:123"
+              }
+            }
+          },
+          "invias": {
+            "image": "/vibico-astro/emergency_numbers/invias.png",
+            "title": "Seguridad Vial",
+            "description": "Consulte el estado de las vías.",
+            "tel": {
+              "call": {
+                "label": "#767",
+                "url": "tel:#767"
+              }
+            }
+          },
+          "defensa_civil": {
+            "image": "/vibico-astro/emergency_numbers/defensa_civil.png",
+            "title": "Defensa Civil",
+            "description": "Atención de desastres y emergencias.",
+            "tel": {
+              "call": {
+                "label": "144",
+                "url": "tel:144"
+              }
+            }
+          },
+          "bomberos": {
+            "image": "/vibico-astro/emergency_numbers/bomberos.png",
+            "title": "Bomberos",
+            "description": "Atención de incendios y rescates.",
+            "tel": {
+              "call": {
+                "label": "119",
+                "url": "tel:119"
+              }
+            }
+          },
+          "cruz_roja": {
+            "image": "/vibico-astro/emergency_numbers/cruz_roja.png",
+            "title": "Cruz Roja",
+            "description": "Ayuda humanitaria y emergencias médicas.",
+            "tel": {
+              "call": {
+                "label": "132",
+                "url": "tel:132"
+              }
+            }
+          },
+          "policia": {
+            "image": "/vibico-astro/emergency_numbers/policia.png",
+            "title": "Policía Nacional",
+            "description": "Seguridad y convivencia ciudadana.",
+            "tel": {
+              "call": {
+                "label": "112",
+                "url": "tel:112"
+              }
+            }
+          },
+          "linea_purpura": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Linea Purpura",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "018000112137",
+                "url": "tel:018000112137"
+              }
+            }
+          },
+          "linea_niños_jovenes": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Linea para Niños, Niñas y Adolescentes",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "106",
+                "url": "tel:106"
+              }
+            }
+          },
+          "policia_transito": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Policia de Transito y Transporte",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "#767",
+                "url": "tel:#767"
+              }
+            }
+          },
+          "fiscalia": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Fiscalia General de la Nación",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "018000919748",
+                "url": "tel:018000919748"
+              }
+            }
+          },
+          "policia_ambiental": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Policia Ambiental Y Ecologica",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "5159000 Ext:56182",
+                "url": "tel:5159000"
+              }
+            }
+          },
+          "violencia_mujeres": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Linea de orientacion a mujeres victimas de la violencia",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "155",
+                "url": "tel:155"
+              }
+            }
+          },
+          "linea_psicoactiva": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Linea psicoactiva o SPA",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "018000112137",
+                "url": "tel:018000112137"
+              }
+            }
+          },
+          "gaula": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Gaula Ejercito",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "147",
+                "url": "tel:147"
+              }
+            }
+          },
+          "gaula_antisecuestro": {
+            "image": "/vibico-astro/emergency_numbers/colombia.png",
+            "title": "Gaula Antisecuestro y Antiextrocion",
+            "description": "",
+            "tel": {
+              "call": {
+                "label": "165",
+                "url": "tel:165"
               }
             }
           }
@@ -157,8 +442,12 @@
               "href": "/informacion#informacionenruta"
             },
             {
-              "label": "Visión",
-              "href": "/informacion#vision"
+              "label": "Números de Emergencia",
+              "href": "/informacion#numerosdeemergencia"
+            },
+            {
+              "label": "Grupos Red de Apoyo",
+              "href": "/informacion#gruposreddeapoyo"
             }
           ]
         },
