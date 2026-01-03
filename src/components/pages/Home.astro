@@ -1,0 +1,88 @@
+---
+import config from "../../config.json";
+
+const currentPath = Astro.url.pathname;
+const lang = currentPath.startsWith("/en") ? "en" : "es";
+const configSite = config.languages[lang].site.home;
+---
+
+<section class="relative overflow-hidden">
+    <div class="mx-auto max-w-7xl px-1 lg:px-8">
+        <div
+            class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:items-center lg:gap-x-1"
+        >
+            <div class="max-w-xl">
+                <h1
+                    class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl"
+                >
+                    {configSite.title1}
+                    <span class="text-blue-600 italic">{configSite.title2}</span
+                    >
+                </h1>
+
+                <p class="mt-6 text-lg leading-8 text-slate-600">
+                    {configSite.description1}
+                </p>
+
+                <p
+                    class="mt-4 text-md text-slate-500 italic border-l-4 border-blue-500 pl-4"
+                >
+                    {configSite.description2}
+                </p>
+
+                <div class="mt-10 flex items-center">
+                    <a
+                        href={configSite.buttonLink}
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center justify-center px-6 py-4 text-sm font-medium !text-white bg-primary rounded-xl shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline"
+                    >
+                        {configSite.button}
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative w-full">
+                <div
+                    class="vibico-slider flex overflow-hidden aspect-[4/3] rounded-2xl"
+                >
+                    {
+                        Object.entries(configSite.images).map(([key, link]) => (
+                            <div class="relative w-full h-full flex-shrink-0">
+                                {/* Imagen */}
+                                <img
+                                    src={link.image}
+                                    alt={link.title}
+                                    class="w-full h-full object-cover rounded-2xl"
+                                    loading="lazy"
+                                />
+
+                                {/* Overlay inferior compacto */}
+                                <div class="absolute bottom-0 left-0 w-full bg-black/70 !text-white px-2 py-2">
+                                    <h1 class="text-xs !text-white font-medium leading-tight mt-2">
+                                        {link.label}
+                                    </h1>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const sliders = document.querySelectorAll(".vibico-slider");
+
+    sliders.forEach((slider) => {
+        let index = 0;
+
+        setInterval(() => {
+            index = (index + 1) % slider.children.length;
+            slider.scrollTo({
+                left: slider.clientWidth * index,
+                behavior: "smooth",
+            });
+        }, 4000);
+    });
+</script>
