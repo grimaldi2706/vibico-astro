@@ -122,18 +122,36 @@
           }
         },
         "information": {
-          "invias": {
-            "image": "/vibico-astro/information/invias.png",
-            "title": "Estado de las vías",
-            "description": "INVIAS #767, Envía un mensaje de texto en X(anteriormente twitter) y automáticamente te responderán.",
+          "migracion_colombia": {
+            "image": "/vibico-astro/information/migracion_colombia.png",
+            "title": "Migración Colombia",
+            "description": "Ingreso y salida de Extranjeros.",
             "links": {
-              "x": {
-                "label": "X(Twitter)",
-                "url": "https://x.com/numeral767"
-              },
-              "facebook": {
-                "label": "Facebook",
-                "url": "https://www.facebook.com/Numeral767"
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.migracioncolombia.gov.co/subdireccion-de-control-migratorio/ingreso-y-salida-de-extranjeros"
+              }
+            }
+          },
+          "fronteras_terrestres": {
+            "image": "/vibico-astro/information/cancilleria.png",
+            "title": "Fronteras Terrestres",
+            "description": "Colombia, Brasil, Ecuador, Panamá, Venezuela, Perú",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.cancilleria.gov.co/politica/fronteras-terrestres"
+              }
+            }
+          },
+          "politica_fronteras": {
+            "image": "/vibico-astro/information/politica_fronteras.png",
+            "title": "Política de Fronteras",
+            "description": " Implementación de la Política de Fronteras.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://2022.dnp.gov.co/programas/desarrollo-territorial/Ordenamiento%20y%20Desarrollo%20Territorial/Paginas/implementacion-de-la-politica-de-fronteras.aspx"
               }
             }
           },
@@ -159,14 +177,18 @@
               }
             }
           },
-          "politica_fronteras": {
-            "image": "/vibico-astro/information/politica_fronteras.png",
-            "title": "Política de Fronteras",
-            "description": " Implementación de la Política de Fronteras.",
+          "invias": {
+            "image": "/vibico-astro/information/invias.png",
+            "title": "Estado de las vías",
+            "description": "INVIAS #767, Envía un mensaje de texto en X(anteriormente twitter) y automáticamente te responderán.",
             "links": {
-              "web": {
-                "label": "Pagina Web",
-                "url": "https://2022.dnp.gov.co/programas/desarrollo-territorial/Ordenamiento%20y%20Desarrollo%20Territorial/Paginas/implementacion-de-la-politica-de-fronteras.aspx"
+              "x": {
+                "label": "X(Twitter)",
+                "url": "https://x.com/numeral767"
+              },
+              "facebook": {
+                "label": "Facebook",
+                "url": "https://www.facebook.com/Numeral767"
               }
             }
           },
@@ -178,28 +200,6 @@
               "web": {
                 "label": "Pagina Web",
                 "url": "https://www.dian.gov.co/aduanas/Paginas/Pasos-de-Frontera.aspx"
-              }
-            }
-          },
-          "migracion_colombia": {
-            "image": "/vibico-astro/information/migracion_colombia.png",
-            "title": "Migración Colombia",
-            "description": "Ingreso y salida de Extranjeros.",
-            "links": {
-              "web": {
-                "label": "Pagina Web",
-                "url": "https://www.migracioncolombia.gov.co/subdireccion-de-control-migratorio/ingreso-y-salida-de-extranjeros"
-              }
-            }
-          },
-          "fronteras_terrestres": {
-            "image": "/vibico-astro/information/cancilleria.png",
-            "title": "Fronteras Terrestres",
-            "description": "Colombia, Brasil, Ecuador, Panamá, Venezuela, Perú",
-            "links": {
-              "web": {
-                "label": "Pagina Web",
-                "url": "https://www.cancilleria.gov.co/politica/fronteras-terrestres"
               }
             }
           },
@@ -476,7 +476,7 @@
               }
             },
             "compras_ventas_y_trueques": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/compras_y_ventas.jpg",
               "title": "COMPRAS, VENTAS Y TRUEQUES",
               "description": "Compras, ventas y trueques de accesorios de viajeros en bicicleta - América",
               "links": {
@@ -491,7 +491,7 @@
               }
             },
             "ecuador": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/ecuador.jpg",
               "title": "ECUADOR",
               "description": "Red de Apoyo en Ecuador, Pedir ingreso al grupo de whatsapp.",
               "links": {
@@ -502,7 +502,7 @@
               }
             },
             "MEXICO": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/mexico.jpg",
               "title": "MEXICO",
               "description": "Red de Apoyo en México, Pedir ingreso al grupo de whatsapp.",
               "links": {
@@ -517,7 +517,7 @@
               }
             },
             "BRASIL": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/brasil.png",
               "title": "BRASIL",
               "description": "Red de Apoyo en Brasil, Pedir ingreso al grupo de whatsapp.",
               "links": {
@@ -532,7 +532,7 @@
               }
             },
             "ARGENTINA": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/argentina.jpg",
               "title": "ARGENTINA",
               "description": "Red de Apoyo en Argentina, Pedir ingreso al grupo de whatsapp.",
               "links": {
@@ -543,7 +543,7 @@
               }
             },
             "URUGUAY": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/uruguay.png",
               "title": "URUGUAY",
               "description": "Red de Apoyo en Uruguay, Pedir ingreso al grupo de whatsapp.",
               "links": {
@@ -554,7 +554,7 @@
               }
             },
             "URUCOSTA_RICA": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/costa_rica.png",
               "title": "COSTA RICA",
               "description": "Red de Apoyo en Costa Rica, Pedir ingreso al grupo de whatsapp.",
               "links": {
@@ -565,7 +565,7 @@
               }
             },
             "PARAGUAY": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/paraguay.png",
               "title": "PARAGUAY",
               "description": "Red de Apoyo a viajeros en Paraguay.",
               "links": {
@@ -576,7 +576,7 @@
               }
             },
             "CYCLING_SOUTH_AMERICA": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/sur_america.jpg",
               "title": "CYCLING SOUTH AMERICA",
               "description": "Red de Apoyo en Sudamérica, solo en Inglés.",
               "links": {
@@ -587,7 +587,7 @@
               }
             },
             "FAMILIA_CYCLO_VIAJEROS_DE_CENTRO_AMERICA": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/centro_america.png",
               "title": "FAMILIA CYCLO VIAJEROS DE CENTRO AMERICA",
               "description": "Pedir ingreso al grupo de whatsapp, escribir a los siguientes numeros.",
               "links": {
@@ -602,7 +602,7 @@
               }
             },
             "CYCLE_TRAVELERS": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/cycle_travelers.jpg",
               "title": "CYCLE TRAVELERS",
               "description": "Pedir ingreso al grupo de whatsapp.",
               "links": {
@@ -613,7 +613,7 @@
               }
             },
             "RIDING_THE_AMERICAS": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/riding_the_americas.png",
               "title": "RIDING THE AMERICAS",
               "description": "Red de Apoyo en América del Norte.",
               "links": {
@@ -624,7 +624,7 @@
               }
             },
             "ENCUENTRO_URUGUAY": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/encuentro_uruguay.png",
               "title": "ENCUENTRO URUGUAY",
               "description": "Red de Apoyo en Uruguay.",
               "links": {
@@ -635,7 +635,7 @@
               }
             },
             "CYCLING_IN_NORTH_AMERICA": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/cycling_north_america.jpg",
               "title": "CYCLING IN NORTH AMERICA",
               "description": "Red de Apoyo en Norte América.",
               "links": {
@@ -646,7 +646,7 @@
               }
             },
             "CICLOVIAJEROS": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/cicloviajeros.png",
               "title": "CICLOVIAJEROS",
               "description": "Unirse al grupo de whatsapp.",
               "links": {
@@ -661,7 +661,7 @@
               }
             },
             "CICLOVIAJEROS_POR_SURAMERICA": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/cicloviajeros_por_suramerica.png",
               "title": "CICLOVIAJEROS POR SURAMERICA",
               "description": "Red de Apoyo en Sur América.",
               "links": {
@@ -680,7 +680,7 @@
               }
             },
             "COMUNIDAD_DEL_CICLOVIAJERO": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/comunidad_viajero.png",
               "title": "COMUNIDAD DEL CICLOVIAJERO",
               "description": "Unirse al grupo de whatsapp.",
               "links": {
@@ -691,7 +691,7 @@
               }
             },
             "CICLOTURISMO_E_CICLOVIAGEM": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/cicloviagem.png",
               "title": "CICLOTURISMO E CICLOVIAGEM",
               "description": "Unirse al grupo de whatsapp.",
               "links": {
@@ -702,7 +702,7 @@
               }
             },
             "RED_DE_APOYO_AL_VIAJERO": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/red_apoyo_viajero.png",
               "title": "RED DE APOYO AL VIAJERO",
               "description": "Unirse al grupo de whatsapp.",
               "links": {
@@ -713,7 +713,7 @@
               }
             },
             "CASAS_CICLISTAS": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/casas_ciclistas.jpg",
               "title": "CASAS CICLISTAS",
               "description": "Casas ciclistas, warshowers, refugios y posadas para viajeros en latam",
               "links": {
@@ -724,7 +724,7 @@
               }
             },
             "COMPRAVENTA_Y_TRUEQUE_DE_EQUIPOS_DE_CICLOVIAJE": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/compras_y_ventas.jpg",
               "title": "COMPRAVENTA Y TRUEQUE DE EQUIPOS DE CICLOVIAJE",
               "description": "centro america y sur america",
               "links": {
@@ -735,7 +735,7 @@
               }
             },
             "CICLOTURISMO_POR_ARGENTINA": {
-              "image": "/vibico-astro/emergency_numbers/colombia.png",
+              "image": "/vibico-astro/red_apoyo/cicloturismo_argentina.jpg",
               "title": "CICLOVIAJEROS POR ARGENTINA",
               "description": "Red de Apoyo en Argentina",
               "links": {
