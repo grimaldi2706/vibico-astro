@@ -109,7 +109,7 @@
           "description1": "Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.",
           "description2": "Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misión es apoyar a cicloturistas en Colombia y otros países.",
           "button": "Mas Información",
-          "buttonLink": "vibico-astro/informacion",
+          "buttonLink": "/informacion",
           "images": {
             "home": {
               "image": "/vibico-astro/imagen-principal.jpg",
@@ -746,6 +746,228 @@
               }
             }
           }
+        },
+        "aplicaciones": {
+          "STRAVA": {
+            "image": "/vibico-astro/aplicaciones/strava_app.png",
+            "title": "STRAVA",
+            "description": "Strava es una red social basada en Internet y GPS enfocada a deportistas como pueden ser ciclistas y corredores y una aplicación de seguimiento GPS deportiva.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.strava.com/?hl=es-ES"
+              }
+            }
+          },
+          "OSMAND": {
+            "image": "/vibico-astro/aplicaciones/osmand.png",
+            "title": "OSMAND",
+            "description": "Es una aplicación de Navegación · Visualización de mapas · Funciones para peatones y bicicletas · Datos de código abierto OpenStreetMap y Wikipedia · Capturas de pantalla.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://osmand.net/"
+              }
+            }
+          },
+          "MAPYCZ": {
+            "image": "/vibico-astro/aplicaciones/mapycz.png",
+            "title": "MAPY.CZ",
+            "description": "Es una aplicación que muestra Mapas offline de ciclismo y senderismo.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://mapy.com/es/zakladni?x=3.7270396&y=20.6246525&z=2"
+              }
+            }
+          },
+          "POLARSTEPS": {
+            "image": "/vibico-astro/aplicaciones/polarsteps_app.png",
+            "title": "POLARSTEPS",
+            "description": "En esta aplicación puede Planificar, rastrear y revivir sus viajes de una manera inteligente y fácil. Recomendada para que agreguen sus rutas de viajes con fotografías e historias.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.polarsteps.com/es/"
+              }
+            }
+          },
+          "MAPOUT": {
+            "image": "/vibico-astro/aplicaciones/mapout.jpg",
+            "title": "MAPOUT",
+            "description": "Mapa sin conexión que cubre todo el mundo para hacer senderismo, andar en bicicleta o como mapa de la ciudad en efecto 3D.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://mapout.app/"
+              }
+            }
+          },
+          "GURU": {
+            "image": "/vibico-astro/aplicaciones/guru.jpg",
+            "title": "GURU",
+            "description": "Es una aplicación de navegación con mapas detallados y fácil de usar. Pueden navegar sin internet, grabar el recorrido, compatible con carplay.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://gurumaps.app/"
+              }
+            }
+          },
+          "GAIA_GPS": {
+            "image": "/vibico-astro/aplicaciones/gaiagps.jpg",
+            "title": "GAIA GPS",
+            "description": "Gaia GPS ha proporcionado los mejores mapas y herramientas para navegar, rastrear y explorar en el campo. Utilizado por guías de clase mundial, excursionistas, overlanders y muchos más aventureros fuera de la red.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.gaiagps.com/"
+              }
+            }
+          },
+          "RUNTASTIC": {
+            "image": "/vibico-astro/aplicaciones/runtastic.jpg",
+            "title": "RUNTASTIC",
+            "description": "Registra tus entrenamientos y analiza las estadísticas. Únete a retos para más motivación y desafía tus límites. Comparte tus éxitos con una comunidad global y alcanza tus metas paso a paso.",
+            "links": {
+              "web1": {
+                "label": "Pagina Web",
+                "url": "https://www.runtastic.com/"
+              }
+            }
+          },
+          "RIDE_GPS": {
+            "image": "/vibico-astro/aplicaciones/ridewhitgps.jpg",
+            "title": "RIDE WITH GPS",
+            "description": "Ride with GPS Fue lanzada en 2007, hace más de diez años! es fácil de trazar, analizar, registrar y compartir sus recorridos en bicicleta.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://ridewithgps.com/"
+              }
+            }
+          },
+          "RELIVE": {
+            "image": "/vibico-astro/aplicaciones/relieve.png",
+            "title": "RELIVE",
+            "description": "Vídeos gratis en 3D de tus actividades, registra tu posición GPS con la aplicación Relive ,funciona con otros trackers GPS.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.relive.com/es"
+              }
+            }
+          },
+          "FIND PENGUINS": {
+            "image": "/vibico-astro/aplicaciones/findpenguins.png",
+            "title": "FIND PENGUINS",
+            "description": "Es una plataforma que rastrea tus viajes automáticamente de una forma hermosa. puede crear tu diario de viaje, tan sólo con tu teléfono en el bolsillo.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://findpenguins.com/"
+              }
+            }
+          },
+          "IOVERLANDER": {
+            "image": "/vibico-astro/aplicaciones/ioverlander.png",
+            "title": "IOVERLANDER",
+            "description": "Es una aplicación que almacena datos de los lugares para los viajeros, que incluye la ubicación de sitios ideales para acampar, hoteles, restaurantes, mecánicos, agua y otras categorías. Los detalles en la app se enumeran para cada lugar, incluyendo amenidades, las fotos y fechas de las coordenadas, además de encontrar diversos destinos. Todo el que utilice el programa puede agregar nuevos sitios turísticos y registrar su viaje.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://ioverlander.com/"
+              }
+            }
+          },
+          "WIKILOC": {
+            "image": "/vibico-astro/aplicaciones/wikiloc.png",
+            "title": "WIKILOC",
+            "description": "Crea tus propias rutas GPS con tu smartphone. Súbelas directamente a Wikiloc - Navegación Outdoor - Mapas offline gratuitos para tus aventuras al aire libre - Seguimiento en Vivo - Búsqueda por Zona de Paso",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://es.wikiloc.com/"
+              }
+            }
+          },
+          "GARMINCONNECT": {
+            "image": "/vibico-astro/aplicaciones/garminconnect.png",
+            "title": "GARMIN CONNECT",
+            "description": "La aplicación Garmin Connect es un recurso centralizado en el que podrás consultar datos sobre ejercicio y salud. No importa si estás entrenando para una carrera, si quieres mantener un estilo de vida activo o si simplemente quieres estar al tanto de tu salud, Garmin Connect te ofrece la información y la inspiración que necesitas para alcanzar tus objetivos.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://connect.garmin.com/"
+              }
+            }
+          },
+          "ROLLINGAROUND": {
+            "image": "/vibico-astro/aplicaciones/rollingaround.png",
+            "title": "ROLLIN GAROUND",
+            "description": "¿Eres un creador de rutas? Rolling Around proporciona una interfaz fácil de usar para actualizar directamente . GPX, gestione puntos de referencia y edite información crucial de rutas, ¡sin necesidad de intermediarios!.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://rollingaround.app/"
+              }
+            }
+          },
+          "MAPSME": {
+            "image": "/vibico-astro/aplicaciones/mapsme.png",
+            "title": "MAPS.ME",
+            "description": "Aplicación para acceder a mapas rápidos, detallados con navegación GPS disponibles totalmente sin conexión – elegida por más de 140 millones de viajeros en todo el mundo.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://maps.me/"
+              }
+            }
+          },
+          "KOMOOT": {
+            "image": "/vibico-astro/aplicaciones/komoot.jpg",
+            "title": "KOMOOT",
+            "description": "Vayas donde vayas, en bici o a pie, komoot tiene un recorrido para ti. Desde guías con aventuras de las que hacen historia hasta itinerarios en tu zona que se pueden filtrar por distancia, nivel de dificultad y acceso en transporte público, con komoot siempre encuentras algo nuevo que descubrir, tanto si está a la puerta de casa como al otro lado del mundo.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://komoot.com/"
+              }
+            }
+          },
+          "POCKET_EARTH": {
+            "image": "/vibico-astro/aplicaciones/pocketearth.png",
+            "title": "POCKET EARTH MAPS",
+            "description": "",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://pocketearth.com/"
+              }
+            }
+          },
+          "ORGANICMPAS": {
+            "image": "/vibico-astro/aplicaciones/organicmaps.jpg",
+            "title": "ORGANIC MPAS",
+            "description": "Es una aplicación libre para Android y iOS de mapas sin conexión para viajantes, turistas, senderistas y ciclistas basados en los datos cartográficos abiertos de OpenStreetMap. Es una bifurcación libre y centrada en la privacidad de la aplicación Maps.me (anteriormente conocida como MapsWithMe), mantenida por la misma gente que creó MapsWithMe en 2011.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://organicmaps.app/es/"
+              }
+            }
+          },
+          "VELOMAPAPL": {
+            "image": "/vibico-astro/aplicaciones/velomapa.jpg",
+            "title": "VELOMAPA.PL",
+            "description": "Mapa de bicicletas de Polonia. Descubre las mejores rutas, senderos y ciclovías.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://velomapa.pl/"
+              }
+            }
+          }
         }
       },
       "navigation": [
@@ -768,6 +990,10 @@
             {
               "label": "Grupos Red de Apoyo",
               "href": "/informacion#gruposreddeapoyo"
+            },
+            {
+              "label": "Aplicaciones",
+              "href": "/informacion#aplicaciones"
             }
           ]
         },
