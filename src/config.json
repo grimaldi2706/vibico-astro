@@ -109,7 +109,7 @@
           "description1": "Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio radial. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.",
           "description2": "Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misión es apoyar a cicloturistas en Colombia y otros países.",
           "button": "Mas Información",
-          "buttonLink": "/informacion",
+          "buttonLink": "/vibico-astro/informacion",
           "images": {
             "home": {
               "image": "/vibico-astro/imagen-principal.jpg",
