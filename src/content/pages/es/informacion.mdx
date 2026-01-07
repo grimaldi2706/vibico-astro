@@ -13,7 +13,7 @@ import config from '../../../config.json';
   {
   Object.entries(config.languages[props.lang].site.information).map(([key, item]) => (
         <div class="max-w-64 bg-white rounded-2xl overflow-hidden shadow-md border border-neutral-200">
-        <h3 class="text-lg font-semibold mb-2 text-primary text-center">{item.title}</h3>
+        <h3 class="text-sm font-bold mb-2 text-primary text-center">{item.title}</h3>
         <img
           src={item.image}
           alt="Workspace"
@@ -64,10 +64,9 @@ import config from '../../../config.json';
           "
         >
           
-          <h3 class="text-sm font-semibold text-primary mb-3">
+          <h3 class="text-sm font-bold text-primary mb-3">
             {item.title}
           </h3>
-
           
           <img
             src={item.image}
@@ -145,6 +144,50 @@ import config from '../../../config.json';
       }
       </div>
     </section>
+</div>
+
+<div id="busquedadehospedaje" class="mt-16">
+  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+    Plataformas para la búsqueda de Hospedaje
+  </h2>
+  <div class="grid grid-cols-1 md:grid-cols-6 gap-6 justify-items-center">
+  {
+  Object.entries(config.languages[props.lang].site.plataformas).map(([key, item]) => (
+        <div class="max-w-64 bg-white rounded-2xl overflow-hidden shadow-md border border-neutral-200">
+        <h3 class="text-sm font-bold mb-2 text-primary text-center">{item.title}</h3>
+        <img
+          src={item.image}
+          alt="Workspace"
+          class="w-full h-56 object-cover px-2"
+        />
+      <div style="margin-top: -50px;" class="flex flex-col items-center text-center px-6 py-8">
+        <details class="group">
+          <p class="text-sm text-neutral-700 leading-relaxed mb-2 line-clamp-3 group-open:line-clamp-none transition-all">
+           {item.description}
+          </p>
+          <summary
+            class="list-none cursor-pointer text-sm font-semibold text-blue-600 hover:underline mb-4"
+          >
+            <span class="group-open:hidden">Ver más</span>
+            <span class="hidden group-open:inline">Ver menos</span>
+          </summary>
+        </details>
+        {
+          Object.entries(item.links).map(([keys, link]) => (
+            <a
+              href={link.url} target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline">
+              {link.label}
+            </a>
+          ))
+        }
+        
+      </div>
+    </div>
+
+  ))
+  }
+</div>
 </div>
 
 <div id="aplicaciones" class="mt-16">

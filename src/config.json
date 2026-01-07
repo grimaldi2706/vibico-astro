@@ -747,6 +747,107 @@
             }
           }
         },
+        "plataformas": {
+          "OPENSTREETMAP": {
+            "image": "/vibico-astro/plataformas/openstreetmap.png",
+            "title": "OPENSTREETMAP",
+            "description": "OpenStreetMap es un mapa del mundo, creado por gente como tú y de uso libre bajo una licencia abierta.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.openstreetmap.org/"
+              }
+            }
+          },
+          "TRUSTED_HOUSESITTERS": {
+            "image": "/vibico-astro/plataformas/trustedhosesitters.jpg",
+            "title": "TRUSTED HOUSESITTERS",
+            "description": "Cuidar casas, una forma económica y diferente de viajar. Es el portal web más grande de todos en cuanto a este tipo de servicios. Cuenta con más de 600.000 casas repartidas por todo el mundo.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.trustedhousesitters.com/"
+              }
+            }
+          },
+          "HOUSE_CARERS": {
+            "image": "/vibico-astro/plataformas/housecarers.jpg",
+            "title": "HOUSE CARERS",
+            "description": "Cuidar casas, una forma económica y diferente de viajar. Lleva funcionando desde el año 2000 uniendo a propietarios con cuidadores y viceversa.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.housecarers.com/"
+              }
+            }
+          },
+          "WWOOF": {
+            "image": "/vibico-astro/plataformas/wwoof.png",
+            "title": "WWOOF",
+            "description": "Esta página es excelente, pues te brinda la oportunidad de quedarte en fincas orgánicas, donde a cambio de tu trabajo (unas 4 a 6 horas por día) te darán el alojamiento y las comidas diarias.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://wwoof.net/"
+              }
+            }
+          },
+          "VOLUNTERSBASE": {
+            "image": "/vibico-astro/plataformas/voluntersbase.png",
+            "title": "VOLUNTERS BASE",
+            "description": "La Base de Voluntarios (VB) es una red de intercambio de ayuda sin dinero. Las personas que buscan ayuda pueden enumerar sus proyectos, convirtiéndose así en anfitriones y los voluntarios dispuestos a ayudar pueden ponerse en contacto. Los proyectos pueden ser casi cualquier cosa: agricultura, construcción, enseñanza de idiomas, albergues, cuidado de casas, trabajo comunitario, limpieza, cuidado de animales, artes y manualidades, etc.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.volunteersbase.com/"
+              }
+            }
+          },
+          "TRUSTROOTS": {
+            "image": "/vibico-astro/plataformas/trustroots.png",
+            "title": "TRUSTROOTS",
+            "description": "Esta aplicación es la versión nueva de Warmshowers, pero reciben de todo tipo de viajero, sea a pie, bici, carro, moto.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.trustroots.org/"
+              }
+            }
+          },
+          "HELPX": {
+            "image": "/vibico-astro/plataformas/helpx.png",
+            "title": "HELPX",
+            "description": "Es una lista en línea de granjas orgánicas anfitrionas, granjas de pasatiempos, bloques de estilo de vida, casas de familia, ranchos, albergues, albergues para mochileros e incluso barcos de vela que invitan a ayudantes voluntarios a quedarse con ellos a corto plazo a cambio de comida y alojamiento. HelpX se ofrece principalmente como un intercambio cultural para los trabajadores en vacaciones, que desean tener la oportunidad durante sus viajes al extranjero, de alojarse con la gente local y adquirir experiencia práctica. En el arreglo típico, el ayudante trabaja un promedio de 4 horas por día y recibe alojamiento y comidas gratis por sus esfuerzos.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.helpx.net/"
+              }
+            }
+          },
+          "LUXURY_HOUSE_SITTING": {
+            "image": "/vibico-astro/plataformas/luxuryhouse.png",
+            "title": "LUXURY HOUSE SITTING",
+            "description": "Cuidar casas, una forma económica y diferente de viajar. Es otra de las web más conocidas para buscar u ofrecer el cuidado de una casa y sus mascotas en todo el mundo.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.luxuryhousesitting.com/"
+              }
+            }
+          },
+          "BRING_FIDO": {
+            "image": "/vibico-astro/plataformas/bringfido.png",
+            "title": "BRING FIDO",
+            "description": "Miles de reseñas para descubrir los mejores hoteles, restaurantes y atracciones que admiten mascotas en más de 100 países.",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://www.bringfido.com/"
+              }
+            }
+          }
+        },
         "aplicaciones": {
           "STRAVA": {
             "image": "/vibico-astro/aplicaciones/strava_app.png",
@@ -990,6 +1091,10 @@
             {
               "label": "Grupos Red de Apoyo",
               "href": "/informacion#gruposreddeapoyo"
+            },
+            {
+              "label": "Busqueda de Hospedaje",
+              "href": "/informacion#busquedadehospedaje"
             },
             {
               "label": "Aplicaciones",
