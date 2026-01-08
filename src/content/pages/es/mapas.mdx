@@ -1,0 +1,56 @@
+---
+title: "Mapas"
+description: "Bienvenido a VIBICO - Viajeros en Bicicleta Por Colombia"
+---
+import config from '../../../config.json';
+
+## 🗺️ Mapas
+
+Los **Mapas de VIBICO** son una herramienta colaborativa para viajeros en bicicleta que muestra anfitriones, casas ciclistas y bicicleterías en Colombia.
+Es un mapa interactivo en Google Maps con puntos recomendados por la comunidad.
+
+{
+Object.entries(config.languages[props.lang].site.mapas).map(([key, item]) => (
+    <div class="max-w-6xl mx-auto mt-8 px-2 rounded-3xl">
+  <div class="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 shadow-xl">
+      
+      <div class="relative aspect-[4/3] md:aspect-auto md:h-full">
+        <iframe
+          src={item.link_mapa}
+          class="absolute inset-0 w-full h-full shadow-xl"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
+      </div>
+      
+      <div class="px-4 py-1 flex flex-col justify-center">
+ 
+        <h3 class="text-xl font-bold text-neutral-900 mb-4">
+          {item.title}
+        </h3>
+        {
+            Object.entries(item.parrafos).map(([key, parrafos]) => (
+            <p class="text-sm text-neutral-600 leading-relaxed mb-4">
+              {parrafos}
+            </p>
+            ))
+        }
+        <div class="p-4 flex flex-wrap gap-3">
+            {
+            Object.entries(item.items).map(([key, items]) => (
+                <span class="p-2 text-xs font-semibold rounded-2xl bg-gray-100 text-gray-700">
+                    {items}
+                </span>
+            ))
+            }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+))
+}
