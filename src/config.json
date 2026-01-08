@@ -1087,7 +1087,7 @@
             }
           },
           "mapa_bicileterias": {
-            "title": "Bicicleterías y almacenes deportivos",
+            "title": "Mapa de Bicicleterías y almacenes deportivos",
             "link_mapa": "https://www.google.com/maps/d/embed?mid=1Lew9qd_AuUiyM6PG2l0mo1e5yvXrTIc&ehbc=2E312F",
             "parrafos": {
               "parrafo1": "Aquí encuentran Bicicleterías y almacenes deportivos que han sido referenciados por viajeros en bicicleta.",
@@ -1097,6 +1097,19 @@
               "1": "🚲 Bicicleterías",
               "2": "👟 Almacenes deportivos",
               "3": "🪛 Talleres soldadura"
+            }
+          },
+          "mapa_voluntariados": {
+            "title": "Mapa de Voluntariados",
+            "link_mapa": "https://www.google.com/maps/d/embed?mid=1IUQXOo9XhN-bhWCVhqT0ZM7DIX5qL74&ehbc=2E312F",
+            "parrafos": {
+              "parrafo1": "Los puntos de ubicación hacen referencia al nombre del municipio, o ciudad donde están ubicados los Voluntariados que están registrados con nosotros.",
+              "parrafo2": "Cada punto tiene su descripción y estamos en constante actualización. de acuerdo a la información que nos comparten los Administradores de los establecimientos o Viajeros.",
+              "parrafo3": "No nos hacemos responsables del mal uso que le puedan dar a este mapa, es completamente informativo",
+              "parrafo4": "Para solicitar los datos de contacto, es necesario estar registrado en el grupo de WhatsApp de VIBICO. Puedes contactarnos a través del número de WhatsApp al 315 573 0212."
+            },
+            "items": {
+              "1": "⚙️ Voluntariados"
             }
           }
         }
