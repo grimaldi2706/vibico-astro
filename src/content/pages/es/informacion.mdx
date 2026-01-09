@@ -6,9 +6,11 @@ image: "public/imagen-principal.jpg"
 import config from '../../../config.json';
 
 <div id="informacionenruta">
-  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+  <h2 class="px-1 text-2xl font-bold mb-10 text-primary text-center">
     Información en Ruta
   </h2>
+Información en Ruta reúne enlaces oficiales y recursos clave para cicloviajeros, facilitando el acceso a trámites, normativas, salud, fronteras y el estado de las vías durante el viaje.
+
   <div class="grid grid-cols-1 md:grid-cols-5 gap-6 justify-items-center">
   {
   Object.entries(config.languages[props.lang].site.information).map(([key, item]) => (
@@ -53,7 +55,7 @@ import config from '../../../config.json';
   <h2 class="text-2xl font-bold mb-10 text-primary text-center">
     Números de Emergencia
   </h2>
-
+Contactos oficiales de emergencia en Colombia para atención inmediata en casos de accidentes, seguridad, salud y situaciones de riesgo durante tu viaje.
   <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 justify-items-center">
     {
       Object.entries(
@@ -150,6 +152,7 @@ import config from '../../../config.json';
   <h2 class="text-2xl font-bold mb-10 text-primary text-center">
     Plataformas para la búsqueda de Hospedaje
   </h2>
+  Plataformas y comunidades digitales que facilitan la búsqueda de hospedaje, voluntariados e intercambio de alojamiento para viajeros y cicloviajeros.
   <div class="grid grid-cols-1 md:grid-cols-6 gap-6 justify-items-center">
   {
   Object.entries(config.languages[props.lang].site.plataformas).map(([key, item]) => (
@@ -194,6 +197,7 @@ import config from '../../../config.json';
   <h2 class="text-2xl font-bold mb-10 text-primary text-center">
     Aplicaciones
   </h2>
+  Herramientas digitales que apoyan a cicloviajeros en navegación, planificación de rutas, registro de viajes y exploración del territorio.
   <div class="grid grid-cols-1 md:grid-cols-6 gap-6 justify-items-center">
   {
   Object.entries(config.languages[props.lang].site.aplicaciones).map(([key, item]) => (
