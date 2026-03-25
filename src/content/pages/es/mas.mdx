@@ -1,0 +1,241 @@
+---
+title: "Información"
+description: "Bienvenido a VIBICO - Viajeros en Bicicleta Por Colombia"
+image: "public/imagen-principal.jpg"
+---
+import config from '../../../config.json';
+
+<div id="experiencias">
+  <h2 class="px-1 text-2xl font-bold mb-10 text-primary text-center">
+    Experiencias de Viajeros
+  </h2>
+Información en Ruta reúne enlaces oficiales y recursos clave para cicloviajeros, facilitando el acceso a trámites, normativas, salud, fronteras y el estado de las vías durante el viaje.
+
+  <div class="grid grid-cols-1 md:grid-cols-5 gap-6 justify-items-center">
+  {
+  Object.entries(config.languages[props.lang].site.information).map(([key, item]) => (
+        <div class="max-w-64 bg-white rounded-2xl overflow-hidden shadow-md border border-neutral-200">
+        <h3 class="text-sm font-bold mb-2 text-primary text-center">{item.title}</h3>
+        <img
+          src={item.image}
+          alt="Workspace"
+          class="w-full h-56 object-cover px-2"
+        />
+      <div style="margin-top: -50px;" class="flex flex-col items-center text-center px-6 py-8">
+        <details class="group">
+          <p class="text-sm text-neutral-700 leading-relaxed mb-2 line-clamp-3 group-open:line-clamp-none transition-all">
+           {item.description}
+          </p>
+          <summary
+            class="list-none cursor-pointer text-sm font-semibold text-blue-600 hover:underline mb-4"
+          >
+            <span class="group-open:hidden">Ver más</span>
+            <span class="hidden group-open:inline">Ver menos</span>
+          </summary>
+        </details>
+        {
+          Object.entries(item.links).map(([keys, link]) => (
+            <a
+              href={link.url} target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline">
+              {link.label}
+            </a>
+          ))
+        }
+        
+      </div>
+    </div>
+
+  ))
+  }
+</div>
+</div>
+
+<div id="numerosdeemergencia" class="mt-16">
+  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+    Números de Emergencia
+  </h2>
+Contactos oficiales de emergencia en Colombia para atención inmediata en casos de accidentes, seguridad, salud y situaciones de riesgo durante tu viaje.
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 justify-items-center">
+    {
+      Object.entries(
+        config.languages[props.lang].site.emergency_numbers
+      ).map(([key, item]) => (
+        <div
+          class="w-full max-w-40 bg-white rounded-2xl border border-neutral-200 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center p-4
+          "
+        >
+          
+          <h3 class="text-sm font-bold text-primary mb-3">
+            {item.title}
+          </h3>
+          
+          <img
+            src={item.image}
+            alt={item.title}
+            class="w-20 h-20 object-contain mb-4"
+          />
+
+          
+          <div class="mt-auto flex flex-col gap-2">
+            {
+              Object.entries(item.tel).map(([keys, link]) => (
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline"
+                >
+                  {link.label}
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</div>
+
+<div id="gruposreddeapoyo" class="mt-16">
+  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+    Grupos de Red de Apoyo
+  </h2>
+  <section class="mb-12">
+      <h3 class="text-xl font-bold mb-2">
+        {config.languages[props.lang].site.red_de_apoyo.label}
+      </h3>
+
+      <p class="text-sm text-neutral-600 mb-6">
+        {config.languages[props.lang].site.red_de_apoyo.description}
+      </p>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 justify-items-center">
+      {
+      Object.entries(config.languages[props.lang].site.red_de_apoyo.links).map(([linkKey, item]) => (
+        <div
+          class="w-full max-w-52 bg-white rounded-2xl border border-neutral-200 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center p-4
+          "
+        >
+          <img
+            src={item.image}
+            alt={item.title}
+            class="w-20 h-20 object-contain mb-4"
+          />
+          <h3 class="text-sm font-bold text-primary mb-3">
+              {item.title}
+            </h3>
+            <p class="text-sm text-neutral-600 mb-6">
+              {item.description}
+            </p>
+            <div class="mt-auto flex flex-col gap-2">
+            {
+              Object.entries(item.links).map(([keys, link]) => (
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline"
+                >
+                  {link.label}
+                </a>
+              ))
+            }
+          </div>
+          </div>
+      ))
+      }
+      </div>
+    </section>
+</div>
+
+<div id="busquedadehospedaje" class="mt-16">
+  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+    Plataformas para la búsqueda de Hospedaje
+  </h2>
+  Plataformas y comunidades digitales que facilitan la búsqueda de hospedaje, voluntariados e intercambio de alojamiento para viajeros y cicloviajeros.
+  <div class="grid grid-cols-1 md:grid-cols-6 gap-6 justify-items-center">
+  {
+  Object.entries(config.languages[props.lang].site.plataformas).map(([key, item]) => (
+        <div class="max-w-64 bg-white rounded-2xl overflow-hidden shadow-md border border-neutral-200">
+        <h3 class="text-sm font-bold mb-2 text-primary text-center">{item.title}</h3>
+        <img
+          src={item.image}
+          alt="Workspace"
+          class="w-full h-56 object-cover px-2"
+        />
+      <div style="margin-top: -50px;" class="flex flex-col items-center text-center px-6 py-8">
+        <details class="group">
+          <p class="text-sm text-neutral-700 leading-relaxed mb-2 line-clamp-3 group-open:line-clamp-none transition-all">
+           {item.description}
+          </p>
+          <summary
+            class="list-none cursor-pointer text-sm font-semibold text-blue-600 hover:underline mb-4"
+          >
+            <span class="group-open:hidden">Ver más</span>
+            <span class="hidden group-open:inline">Ver menos</span>
+          </summary>
+        </details>
+        {
+          Object.entries(item.links).map(([keys, link]) => (
+            <a
+              href={link.url} target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline">
+              {link.label}
+            </a>
+          ))
+        }
+        
+      </div>
+    </div>
+
+  ))
+  }
+</div>
+</div>
+
+<div id="aplicaciones" class="mt-16">
+  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
+    Aplicaciones
+  </h2>
+  Herramientas digitales que apoyan a cicloviajeros en navegación, planificación de rutas, registro de viajes y exploración del territorio.
+  <div class="grid grid-cols-1 md:grid-cols-6 gap-6 justify-items-center">
+  {
+  Object.entries(config.languages[props.lang].site.aplicaciones).map(([key, item]) => (
+        <div class="max-w-64 bg-white rounded-2xl overflow-hidden shadow-md border border-neutral-200">
+        <h3 class="text-lg font-semibold mb-2 text-primary text-center">{item.title}</h3>
+        <img
+          src={item.image}
+          alt="Workspace"
+          class="w-full h-56 object-cover px-2"
+        />
+      <div style="margin-top: -50px;" class="flex flex-col items-center text-center px-6 py-8">
+        <details class="group">
+          <p class="text-sm text-neutral-700 leading-relaxed mb-2 line-clamp-3 group-open:line-clamp-none transition-all">
+           {item.description}
+          </p>
+          <summary
+            class="list-none cursor-pointer text-sm font-semibold text-blue-600 hover:underline mb-4"
+          >
+            <span class="group-open:hidden">Ver más</span>
+            <span class="hidden group-open:inline">Ver menos</span>
+          </summary>
+        </details>
+        {
+          Object.entries(item.links).map(([keys, link]) => (
+            <a
+              href={link.url} target="_blank" rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline">
+              {link.label}
+            </a>
+          ))
+        }
+        
+      </div>
+    </div>
+
+  ))
+  }
+  </div>
+
+</div>
+

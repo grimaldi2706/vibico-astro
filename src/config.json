@@ -124,7 +124,7 @@
         "information": {
           "migracion_colombia": {
             "image": "/vibico-astro/information/migracion_colombia.png",
-            "title": "Migración Colombia",
+            "title": "Migración Colombia OFICIAL",
             "description": "Ingreso y salida de Extranjeros.",
             "links": {
               "web": {
@@ -1112,6 +1112,32 @@
               "1": "⚙️ Voluntariados"
             }
           }
+        },
+        "mas": {
+          "experiencias": {
+            "title": "Experiencias de Viajeros",
+            "link": "/experiencias"
+          },
+          "libros": {
+            "title": "Libros de Viajeros",
+            "link": "/libros"
+          },
+          "datoscuriosos": {
+            "title": "Datos Curiosos",
+            "link": "/datoscuriosos"
+          },
+          "viajerosdesaparecidos": {
+            "title": "Viajeros Desaparecidos",
+            "link": "/viajerosdesaparecidos"
+          },
+          "proyectos": {
+            "title": "Proyectos",
+            "link": "/proyectos"
+          },
+          "otropaises": {
+            "title": "Otros Países",
+            "link": "/otropaises"
+          }
         }
       },
       "navigation": [
@@ -1155,7 +1181,7 @@
         },
         {
           "label": "Mas",
-          "href": "/",
+          "href": "/mas",
           "subitems": [
             {
               "label": "Experiencias de Viajeros",
