@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "VIBICO",
+    "description": "Bike Travelers Through Colombia",
+    "logoText": "V I B I C O"
+  },
+  "home": {
+    "title": "Welcome to VIBICO",
+    "description": "We are a community passionate about touring Colombia by bicycle. Our mission is to support cycle tourists in Colombia and other countries with real resources and authentic experiences.",
+    "button": "Explore Maps",
+    "subDescription": "We offer practical resources, maps, contacts and a space oriented to promote respect and responsible access.",
+    "moreButton": "Learn more"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/en"
+    },
+    {
+      "label": "About Us",
+      "href": "/en/about"
+    },
+    {
+      "label": "Routes",
+      "href": "/en/routes"
+    },
+    {
+      "label": "Blog",
+      "href": "/en/blog"
+    },
+    {
+      "label": "Contact",
+      "href": "/en/contact"
+    }
+  ]
+}

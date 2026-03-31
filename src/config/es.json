@@ -1,0 +1,1117 @@
+{
+  "site": {
+    "title": "VIBICO",
+    "description": "Viajeros en Bicicleta Por Colombia",
+    "logoText": "V I B I C O",
+    "home": {
+      "title1": "Bienvenidos a ",
+      "title2": "VIBICO",
+      "description1": "Ofrecemos recursos prácticos, mapas, contactos, apps útiles, experiencias de viaje reales y un espacio de intercambio cultural. Todo orientado a fomentar el respeto, la ayuda mutua y el acceso responsable al cicloturismo.",
+      "description2": "Somos una comunidad apasionada por recorrer Colombia en bicicleta. Nuestra misión es apoyar a cicloturistas en Colombia y otros países.",
+      "button": "Mas Información",
+      "buttonLink": "/vibico-astro/informacion",
+      "images": {
+        "home": {
+          "image": "/vibico-astro/imagen-principal.jpg",
+          "label": "Viajeros en Bicicleta Por Colombia"
+        },
+        "home2": {
+          "image": "/vibico-astro/pauta_con_nosotros.png",
+          "label": "Espacio Publicitario - Pauta con nosotros"
+        }
+      }
+    },
+    "information": {
+      "migracion_colombia": {
+        "image": "/vibico-astro/information/migracion_colombia.png",
+        "title": "Migración Colombia OFICIAL",
+        "description": "Ingreso y salida de Extranjeros.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.migracioncolombia.gov.co/subdireccion-de-control-migratorio/ingreso-y-salida-de-extranjeros"
+          }
+        }
+      },
+      "fronteras_terrestres": {
+        "image": "/vibico-astro/information/cancilleria.png",
+        "title": "Fronteras Terrestres",
+        "description": "Colombia, Brasil, Ecuador, Panamá, Venezuela, Perú",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.cancilleria.gov.co/politica/fronteras-terrestres"
+          }
+        }
+      },
+      "politica_fronteras": {
+        "image": "/vibico-astro/information/politica_fronteras.png",
+        "title": "Política de Fronteras",
+        "description": " Implementación de la Política de Fronteras.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://2022.dnp.gov.co/programas/desarrollo-territorial/Ordenamiento%20y%20Desarrollo%20Territorial/Paginas/implementacion-de-la-politica-de-fronteras.aspx"
+          }
+        }
+      },
+      "fiebre_amarilla": {
+        "image": "/vibico-astro/information/fiebre_amarilla.png",
+        "title": "Vacunación Fiebre Amarilla",
+        "description": "La vacuna  contra la fiebre amarilla es gratuita  y existen puntos de vacunación en todo el país en las terminales de transporte, aeropuertos y centros de salud para los viajeros. La vacuna se aplica una sola vez. ",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/fiebre-amarilla.aspx"
+          }
+        }
+      },
+      "defensoria_ciclistas": {
+        "image": "/vibico-astro/information/defensoria_ciclistas.png",
+        "title": "Defensoría de los Ciclistas",
+        "description": "La vacuna  contra la fiebre amarilla es gratuita  y existen puntos de vacunación en todo el país en las terminales de transporte, aeropuertos y centros de salud para los viajeros. La vacuna se aplica una sola vez. ",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.minsalud.gov.co/salud/publica/PET/Paginas/fiebre-amarilla.aspx"
+          }
+        }
+      },
+      "invias": {
+        "image": "/vibico-astro/information/invias.png",
+        "title": "Estado de las vías",
+        "description": "INVIAS #767, Envía un mensaje de texto en X(anteriormente twitter) y automáticamente te responderán.",
+        "links": {
+          "x": {
+            "label": "X(Twitter)",
+            "url": "https://x.com/numeral767"
+          },
+          "facebook": {
+            "label": "Facebook",
+            "url": "https://www.facebook.com/Numeral767"
+          }
+        }
+      },
+      "dian": {
+        "image": "/vibico-astro/information/dian.png",
+        "title": "DIAN",
+        "description": "Números telefónicos de fronteras Colombianas.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.dian.gov.co/aduanas/Paginas/Pasos-de-Frontera.aspx"
+          }
+        }
+      },
+      "ica": {
+        "image": "/vibico-astro/information/ica.png",
+        "title": "Ingresos y Salidas de Perros y Gatos",
+        "description": "Ingresos y Salidas de Perros y Gatos.",
+        "links": {
+          "web1": {
+            "label": "Pagina Web 1",
+            "url": "https://www.ica.gov.co/importacion-y-exportacion/otros-procedimientos/requisitos-para-importar-mascotas/salida-de-perros-y-gatos-desde-colombia"
+          },
+          "web2": {
+            "label": "Pagina Web 2",
+            "url": "https://www.ica.gov.co/importacion-y-exportacion/otros-procedimientos/requisitos-para-importar-mascotas/ingreso-de-perros-y-gatos-a-colombia"
+          },
+          "web3": {
+            "label": "Pagina Web 3",
+            "url": "https://www.ica.gov.co/importacion-y-exportacion/otros-procedimientos/requisitos-para-importar-mascotas.aspx"
+          }
+        }
+      },
+      "salida_ingreso_niños_jovenes": {
+        "image": "/vibico-astro/information/cancilleria.png",
+        "title": "Salida e Ingreso de Niños y Jóvenes Menores de Edad",
+        "description": "Requisitos Migratorios para Salida e Ingreso de Niños y Jóvenes Menores de Edad.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.cancilleria.gov.co/newsroom/news/salir-pais-nino-nina-o-adolescente-importante-conocer-normas-establecen-requisitos"
+          }
+        }
+      },
+      "prorrogas": {
+        "image": "/vibico-astro/information/prorrogas.png",
+        "title": "Prórrogas",
+        "description": "Prórrogas de 90 días en Colombia.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.gov.co/"
+          }
+        }
+      },
+      "ciclo_ruta_bogota": {
+        "image": "/vibico-astro/information/ciclo_ruta_bogota.png",
+        "title": "Ciclo Ruta Bogotá",
+        "description": "Actualmente Bogotá cuenta con 630 kilómetros de carriles para ciclistas, que facilitan la movilidad en bici y que también permiten la conectividad con el Sistema de Transporte Público de la ciudad, promoviendo así una movilidad más sostenible, asequible y segura.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.movilidadbogota.gov.co/web/mapa_de_ciclorrutas_de_bogota"
+          }
+        }
+      },
+      "registro_bici": {
+        "image": "/vibico-astro/information/registro_bici.png",
+        "title": "Registro Bici",
+        "description": "El Registro Bici permite asociar los datos personales de los ciudadanos con los de su bicicleta. Este instrumento le facilita a los ciclistas demostrar la propiedad de su vehículo ante un posible hurto y a la Policía, regresar de manera ágil las bicicletas recuperadas.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://registrobicibogota.movilidadbogota.gov.co/#!/"
+          }
+        }
+      },
+      "mapa_cobertura": {
+        "image": "/vibico-astro/information/mapa_cobertura.png",
+        "title": "Mapa de Cobertura",
+        "description": "Este mapa representa la cobertura de la red móvil 2G, 3G, 4G y 5G Movistar Movil.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.nperf.com/es/map/CO/-/-/signal?ll=20&lg=0&zoom=3"
+          }
+        }
+      }
+    },
+    "emergency_numbers": {
+      "123": {
+        "image": "/vibico-astro/emergency_numbers/123.png",
+        "title": "Numero unico de emergencia a nivel nacional",
+        "description": "Número único de emergencia a nivel nacional.",
+        "tel": {
+          "call": {
+            "label": "123",
+            "url": "tel:123"
+          }
+        }
+      },
+      "invias": {
+        "image": "/vibico-astro/emergency_numbers/invias.png",
+        "title": "Seguridad Vial",
+        "description": "Consulte el estado de las vías.",
+        "tel": {
+          "call": {
+            "label": "#767",
+            "url": "tel:#767"
+          }
+        }
+      },
+      "defensa_civil": {
+        "image": "/vibico-astro/emergency_numbers/defensa_civil.png",
+        "title": "Defensa Civil",
+        "description": "Atención de desastres y emergencias.",
+        "tel": {
+          "call": {
+            "label": "144",
+            "url": "tel:144"
+          }
+        }
+      },
+      "bomberos": {
+        "image": "/vibico-astro/emergency_numbers/bomberos.png",
+        "title": "Bomberos",
+        "description": "Atención de incendios y rescates.",
+        "tel": {
+          "call": {
+            "label": "119",
+            "url": "tel:119"
+          }
+        }
+      },
+      "cruz_roja": {
+        "image": "/vibico-astro/emergency_numbers/cruz_roja.png",
+        "title": "Cruz Roja",
+        "description": "Ayuda humanitaria y emergencias médicas.",
+        "tel": {
+          "call": {
+            "label": "132",
+            "url": "tel:132"
+          }
+        }
+      },
+      "policia": {
+        "image": "/vibico-astro/emergency_numbers/policia.png",
+        "title": "Policía Nacional",
+        "description": "Seguridad y convivencia ciudadana.",
+        "tel": {
+          "call": {
+            "label": "112",
+            "url": "tel:112"
+          }
+        }
+      },
+      "linea_purpura": {
+        "image": "/vibico-astro/emergency_numbers/linea_purpura.png",
+        "title": "Linea Purpura",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "018000112137",
+            "url": "tel:018000112137"
+          }
+        }
+      },
+      "linea_niños_jovenes": {
+        "image": "/vibico-astro/emergency_numbers/niños_adolescentes.png",
+        "title": "Linea para Niños, Niñas y Adolescentes",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "106",
+            "url": "tel:106"
+          }
+        }
+      },
+      "policia_transito": {
+        "image": "/vibico-astro/emergency_numbers/Transito_y_Transporte.png",
+        "title": "Policia de Transito y Transporte",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "#767",
+            "url": "tel:#767"
+          }
+        }
+      },
+      "fiscalia": {
+        "image": "/vibico-astro/emergency_numbers/fiscalia.png",
+        "title": "Fiscalia General de la Nación",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "018000919748",
+            "url": "tel:018000919748"
+          }
+        }
+      },
+      "policia_ambiental": {
+        "image": "/vibico-astro/emergency_numbers/policia_ambiental.png",
+        "title": "Policia Ambiental Y Ecologica",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "5159000 Ext:56182",
+            "url": "tel:5159000"
+          }
+        }
+      },
+      "violencia_mujeres": {
+        "image": "/vibico-astro/emergency_numbers/violencia_mujer.png",
+        "title": "Linea de orientacion a mujeres victimas de la violencia",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "155",
+            "url": "tel:155"
+          }
+        }
+      },
+      "linea_psicoactiva": {
+        "image": "/vibico-astro/emergency_numbers/linea_spa.png",
+        "title": "Linea psicoactiva o SPA",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "018000112137",
+            "url": "tel:018000112137"
+          }
+        }
+      },
+      "gaula": {
+        "image": "/vibico-astro/emergency_numbers/gaula.png",
+        "title": "Gaula Ejercito",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "147",
+            "url": "tel:147"
+          }
+        }
+      },
+      "gaula_antisecuestro": {
+        "image": "/vibico-astro/emergency_numbers/gaula_secuestro.png",
+        "title": "Gaula Antisecuestro y Antiextrocion",
+        "description": "",
+        "tel": {
+          "call": {
+            "label": "165",
+            "url": "tel:165"
+          }
+        }
+      }
+    },
+    "red_de_apoyo": {
+      "label": "Grupos de Whatsapp y Facebook",
+      "description": "Aquí encontrarás grupos de WhatsApp y Facebook de diferentes países, organizados según tu ruta de viaje en bicicleta. Cada grupo tiene administradores y reglas propias; te invitamos a leer la descripción y respetarlas.",
+      "links": {
+        "vivico": {
+          "image": "/vibico-astro/logo-vibico.jpg",
+          "title": "VIBICO",
+          "description": "Grupo de la Red de Apoyo Informativo en Colombia.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://wa.me/573123456789"
+            },
+            "facebook": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/966471260042273"
+            }
+          }
+        },
+        "colombia": {
+          "image": "/vibico-astro/emergency_numbers/colombia.png",
+          "title": "COLOMBIA",
+          "description": "Canal Informativo.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://wa.me/573123456789"
+            }
+          }
+        },
+        "compras_ventas_y_trueques": {
+          "image": "/vibico-astro/red_apoyo/compras_y_ventas.jpg",
+          "title": "COMPRAS, VENTAS Y TRUEQUES",
+          "description": "Compras, ventas y trueques de accesorios de viajeros en bicicleta - América",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/F3GDLZj2AFuCUoioBTxf9H"
+            },
+            "facebook": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/1464088454462662"
+            }
+          }
+        },
+        "ecuador": {
+          "image": "/vibico-astro/red_apoyo/ecuador.jpg",
+          "title": "ECUADOR",
+          "description": "Red de Apoyo en Ecuador, Pedir ingreso al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://api.whatsapp.com/send/?phone=593990212314&text&type=phone_number&app_absent=0"
+            }
+          }
+        },
+        "MEXICO": {
+          "image": "/vibico-astro/red_apoyo/mexico.jpg",
+          "title": "MEXICO",
+          "description": "Red de Apoyo en México, Pedir ingreso al grupo de whatsapp.",
+          "links": {
+            "web": {
+              "label": "Pagina Web",
+              "url": "https://racmx.org/"
+            },
+            "facebook": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/racmx"
+            }
+          }
+        },
+        "BRASIL": {
+          "image": "/vibico-astro/red_apoyo/brasil.png",
+          "title": "BRASIL",
+          "description": "Red de Apoyo en Brasil, Pedir ingreso al grupo de whatsapp.",
+          "links": {
+            "web": {
+              "label": "Pagina Web",
+              "url": "https://hospedal.webnode.page/"
+            },
+            "facebook": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/528270261442278"
+            }
+          }
+        },
+        "ARGENTINA": {
+          "image": "/vibico-astro/red_apoyo/argentina.jpg",
+          "title": "ARGENTINA",
+          "description": "Red de Apoyo en Argentina, Pedir ingreso al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/J02dVCr4xpF3fI8SZXPgfq"
+            }
+          }
+        },
+        "URUGUAY": {
+          "image": "/vibico-astro/red_apoyo/uruguay.png",
+          "title": "URUGUAY",
+          "description": "Red de Apoyo en Uruguay, Pedir ingreso al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/Bbe38e3q4p28c6vZ0s5MXr"
+            }
+          }
+        },
+        "URUCOSTA_RICA": {
+          "image": "/vibico-astro/red_apoyo/costa_rica.png",
+          "title": "COSTA RICA",
+          "description": "Red de Apoyo en Costa Rica, Pedir ingreso al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/DpamdOIpeT37zrHqHwyOre"
+            }
+          }
+        },
+        "PARAGUAY": {
+          "image": "/vibico-astro/red_apoyo/paraguay.png",
+          "title": "PARAGUAY",
+          "description": "Red de Apoyo a viajeros en Paraguay.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/LCrFO7Q2RJHL1j4fEQ8wSV?mode=ac_t"
+            }
+          }
+        },
+        "CYCLING_SOUTH_AMERICA": {
+          "image": "/vibico-astro/red_apoyo/sur_america.jpg",
+          "title": "CYCLING SOUTH AMERICA",
+          "description": "Red de Apoyo en Sudamérica, solo en Inglés.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/FARdXMduaXr3rvGdYYve7r"
+            }
+          }
+        },
+        "FAMILIA_CYCLO_VIAJEROS_DE_CENTRO_AMERICA": {
+          "image": "/vibico-astro/red_apoyo/centro_america.png",
+          "title": "FAMILIA CYCLO VIAJEROS DE CENTRO AMERICA",
+          "description": "Pedir ingreso al grupo de whatsapp, escribir a los siguientes numeros.",
+          "links": {
+            "tel1": {
+              "label": "+501 623-1802",
+              "url": "tel:5016231802"
+            },
+            "tel2": {
+              "label": "+502 5914-8981",
+              "url": "tel:50259148981"
+            }
+          }
+        },
+        "CYCLE_TRAVELERS": {
+          "image": "/vibico-astro/red_apoyo/cycle_travelers.jpg",
+          "title": "CYCLE TRAVELERS",
+          "description": "Pedir ingreso al grupo de whatsapp.",
+          "links": {
+            "instagram": {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/hectorinomtb/"
+            }
+          }
+        },
+        "RIDING_THE_AMERICAS": {
+          "image": "/vibico-astro/red_apoyo/riding_the_americas.png",
+          "title": "RIDING THE AMERICAS",
+          "description": "Red de Apoyo en América del Norte.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/C4YyCNdHzVl3TOl91BeiJo"
+            }
+          }
+        },
+        "ENCUENTRO_URUGUAY": {
+          "image": "/vibico-astro/red_apoyo/encuentro_uruguay.png",
+          "title": "ENCUENTRO URUGUAY",
+          "description": "Red de Apoyo en Uruguay.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/ItIWsardV0s6ZtitMT0JMg"
+            }
+          }
+        },
+        "CYCLING_IN_NORTH_AMERICA": {
+          "image": "/vibico-astro/red_apoyo/cycling_north_america.jpg",
+          "title": "CYCLING IN NORTH AMERICA",
+          "description": "Red de Apoyo en Norte América.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/LnKShagOK9pD6rGnawVwcP?mode=wwt"
+            }
+          }
+        },
+        "CICLOVIAJEROS": {
+          "image": "/vibico-astro/red_apoyo/cicloviajeros.png",
+          "title": "CICLOVIAJEROS",
+          "description": "Unirse al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/LnKShagOK9pD6rGnawVwcP?mode=wwt"
+            },
+            "facebook": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/cicloturismodelargadistancia/?ref=share_group_link&rdid=qqBvlvdhyxsD77XR&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F1Gx8hhu6xq%2F#"
+            }
+          }
+        },
+        "CICLOVIAJEROS_POR_SURAMERICA": {
+          "image": "/vibico-astro/red_apoyo/cicloviajeros_por_suramerica.png",
+          "title": "CICLOVIAJEROS POR SURAMERICA",
+          "description": "Red de Apoyo en Sur América.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://www.whatsapp.com/channel/0029VaDMn542Jl850MtBMK1m"
+            },
+            "instagram": {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/cicloviajerosporsura/"
+            },
+            "facebook": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/CicloviajerosPorSurAmerica?rdid=adY6uqE5s7YaOR1n&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F174qAGhYWK%2F"
+            }
+          }
+        },
+        "COMUNIDAD_DEL_CICLOVIAJERO": {
+          "image": "/vibico-astro/red_apoyo/comunidad_viajero.png",
+          "title": "COMUNIDAD DEL CICLOVIAJERO",
+          "description": "Unirse al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/KoqbfvryV9dHH9Vy88QnEE"
+            }
+          }
+        },
+        "CICLOTURISMO_E_CICLOVIAGEM": {
+          "image": "/vibico-astro/red_apoyo/cicloviagem.png",
+          "title": "CICLOTURISMO E CICLOVIAGEM",
+          "description": "Unirse al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/L8IaoA9qlVn83TC1FKOcTw"
+            }
+          }
+        },
+        "RED_DE_APOYO_AL_VIAJERO": {
+          "image": "/vibico-astro/red_apoyo/red_apoyo_viajero.png",
+          "title": "RED DE APOYO AL VIAJERO",
+          "description": "Unirse al grupo de whatsapp.",
+          "links": {
+            "whatsapp": {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/Di4F6anfmvoF9zDF7RcwGj"
+            }
+          }
+        },
+        "CASAS_CICLISTAS": {
+          "image": "/vibico-astro/red_apoyo/casas_ciclistas.jpg",
+          "title": "CASAS CICLISTAS",
+          "description": "Casas ciclistas, warshowers, refugios y posadas para viajeros en latam",
+          "links": {
+            "whatsapp": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/1120538824813259/?ref=share_group_link&rdid=qlMvYVdf7L9VMzUf&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F16mGtAw2St%2F#"
+            }
+          }
+        },
+        "COMPRAVENTA_Y_TRUEQUE_DE_EQUIPOS_DE_CICLOVIAJE": {
+          "image": "/vibico-astro/red_apoyo/compras_y_ventas.jpg",
+          "title": "COMPRAVENTA Y TRUEQUE DE EQUIPOS DE CICLOVIAJE",
+          "description": "centro america y sur america",
+          "links": {
+            "whatsapp": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/1395234567804432/?ref=share_group_link&rdid=N3MoVCt530AAMQyf&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F16ntGXNV2W%2F#"
+            }
+          }
+        },
+        "CICLOTURISMO_POR_ARGENTINA": {
+          "image": "/vibico-astro/red_apoyo/cicloturismo_argentina.jpg",
+          "title": "CICLOVIAJEROS POR ARGENTINA",
+          "description": "Red de Apoyo en Argentina",
+          "links": {
+            "whatsapp": {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/cicloturismoArgentina/?ref=share_group_link&rdid=f4aJEX2AkzPBydEQ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F1FJMDfY8SF%2F#"
+            }
+          }
+        }
+      }
+    },
+    "plataformas": {
+      "OPENSTREETMAP": {
+        "image": "/vibico-astro/plataformas/openstreetmap.png",
+        "title": "OPENSTREETMAP",
+        "description": "OpenStreetMap es un mapa del mundo, creado por gente como tú y de uso libre bajo una licencia abierta.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.openstreetmap.org/"
+          }
+        }
+      },
+      "TRUSTED_HOUSESITTERS": {
+        "image": "/vibico-astro/plataformas/trustedhosesitters.jpg",
+        "title": "TRUSTED HOUSESITTERS",
+        "description": "Cuidar casas, una forma económica y diferente de viajar. Es el portal web más grande de todos en cuanto a este tipo de servicios. Cuenta con más de 600.000 casas repartidas por todo el mundo.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.trustedhousesitters.com/"
+          }
+        }
+      },
+      "HOUSE_CARERS": {
+        "image": "/vibico-astro/plataformas/housecarers.jpg",
+        "title": "HOUSE CARERS",
+        "description": "Cuidar casas, una forma económica y diferente de viajar. Lleva funcionando desde el año 2000 uniendo a propietarios con cuidadores y viceversa.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.housecarers.com/"
+          }
+        }
+      },
+      "WWOOF": {
+        "image": "/vibico-astro/plataformas/wwoof.png",
+        "title": "WWOOF",
+        "description": "Esta página es excelente, pues te brinda la oportunidad de quedarte en fincas orgánicas, donde a cambio de tu trabajo (unas 4 a 6 horas por día) te darán el alojamiento y las comidas diarias.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://wwoof.net/"
+          }
+        }
+      },
+      "VOLUNTERSBASE": {
+        "image": "/vibico-astro/plataformas/voluntersbase.png",
+        "title": "VOLUNTERS BASE",
+        "description": "La Base de Voluntarios (VB) es una red de intercambio de ayuda sin dinero. Las personas que buscan ayuda pueden enumerar sus proyectos, convirtiéndose así en anfitriones y los voluntarios dispuestos a ayudar pueden ponerse en contacto. Los proyectos pueden ser casi cualquier cosa: agricultura, construcción, enseñanza de idiomas, albergues, cuidado de casas, trabajo comunitario, limpieza, cuidado de animales, artes y manualidades, etc.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.volunteersbase.com/"
+          }
+        }
+      },
+      "TRUSTROOTS": {
+        "image": "/vibico-astro/plataformas/trustroots.png",
+        "title": "TRUSTROOTS",
+        "description": "Esta aplicación es la versión nueva de Warmshowers, pero reciben de todo tipo de viajero, sea a pie, bici, carro, moto.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.trustroots.org/"
+          }
+        }
+      },
+      "HELPX": {
+        "image": "/vibico-astro/plataformas/helpx.png",
+        "title": "HELPX",
+        "description": "Es una lista en línea de granjas orgánicas anfitrionas, granjas de pasatiempos, bloques de estilo de vida, casas de familia, ranchos, albergues, albergues para mochileros e incluso barcos de vela que invitan a ayudantes voluntarios a quedarse con ellos a corto plazo a cambio de comida y alojamiento. HelpX se ofrece principalmente como un intercambio cultural para los trabajadores en vacaciones, que desean tener la oportunidad durante sus viajes al extranjero, de alojarse con la gente local y adquirir experiencia práctica. En el arreglo típico, el ayudante trabaja un promedio de 4 horas por día y recibe alojamiento y comidas gratis por sus esfuerzos.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.helpx.net/"
+          }
+        }
+      },
+      "LUXURY_HOUSE_SITTING": {
+        "image": "/vibico-astro/plataformas/luxuryhouse.png",
+        "title": "LUXURY HOUSE SITTING",
+        "description": "Cuidar casas, una forma económica y diferente de viajar. Es otra de las web más conocidas para buscar u ofrecer el cuidado de una casa y sus mascotas en todo el mundo.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.luxuryhousesitting.com/"
+          }
+        }
+      },
+      "BRING_FIDO": {
+        "image": "/vibico-astro/plataformas/bringfido.png",
+        "title": "BRING FIDO",
+        "description": "Miles de reseñas para descubrir los mejores hoteles, restaurantes y atracciones que admiten mascotas en más de 100 países.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.bringfido.com/"
+          }
+        }
+      }
+    },
+    "aplicaciones": {
+      "STRAVA": {
+        "image": "/vibico-astro/aplicaciones/strava_app.png",
+        "title": "STRAVA",
+        "description": "Strava es una red social basada en Internet y GPS enfocada a deportistas como pueden ser ciclistas y corredores y una aplicación de seguimiento GPS deportiva.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.strava.com/?hl=es-ES"
+          }
+        }
+      },
+      "OSMAND": {
+        "image": "/vibico-astro/aplicaciones/osmand.png",
+        "title": "OSMAND",
+        "description": "Es una aplicación de Navegación · Visualización de mapas · Funciones para peatones y bicicletas · Datos de código abierto OpenStreetMap y Wikipedia · Capturas de pantalla.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://osmand.net/"
+          }
+        }
+      },
+      "MAPYCZ": {
+        "image": "/vibico-astro/aplicaciones/mapycz.png",
+        "title": "MAPY.CZ",
+        "description": "Es una aplicación que muestra Mapas offline de ciclismo y senderismo.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://mapy.com/es/zakladni?x=3.7270396&y=20.6246525&z=2"
+          }
+        }
+      },
+      "POLARSTEPS": {
+        "image": "/vibico-astro/aplicaciones/polarsteps_app.png",
+        "title": "POLARSTEPS",
+        "description": "En esta aplicación puede Planificar, rastrear y revivir sus viajes de una manera inteligente y fácil. Recomendada para que agreguen sus rutas de viajes con fotografías e historias.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.polarsteps.com/es/"
+          }
+        }
+      },
+      "MAPOUT": {
+        "image": "/vibico-astro/aplicaciones/mapout.jpg",
+        "title": "MAPOUT",
+        "description": "Mapa sin conexión que cubre todo el mundo para hacer senderismo, andar en bicicleta o como mapa de la ciudad en efecto 3D.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://mapout.app/"
+          }
+        }
+      },
+      "GURU": {
+        "image": "/vibico-astro/aplicaciones/guru.jpg",
+        "title": "GURU",
+        "description": "Es una aplicación de navegación con mapas detallados y fácil de usar. Pueden navegar sin internet, grabar el recorrido, compatible con carplay.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://gurumaps.app/"
+          }
+        }
+      },
+      "GAIA_GPS": {
+        "image": "/vibico-astro/aplicaciones/gaiagps.jpg",
+        "title": "GAIA GPS",
+        "description": "Gaia GPS ha proporcionado los mejores mapas y herramientas para navegar, rastrear y explorar en el campo. Utilizado por guías de clase mundial, excursionistas, overlanders y muchos más aventureros fuera de la red.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.gaiagps.com/"
+          }
+        }
+      },
+      "RUNTASTIC": {
+        "image": "/vibico-astro/aplicaciones/runtastic.jpg",
+        "title": "RUNTASTIC",
+        "description": "Registra tus entrenamientos y analiza las estadísticas. Únete a retos para más motivación y desafía tus límites. Comparte tus éxitos con una comunidad global y alcanza tus metas paso a paso.",
+        "links": {
+          "web1": {
+            "label": "Pagina Web",
+            "url": "https://www.runtastic.com/"
+          }
+        }
+      },
+      "RIDE_GPS": {
+        "image": "/vibico-astro/aplicaciones/ridewhitgps.jpg",
+        "title": "RIDE WITH GPS",
+        "description": "Ride with GPS Fue lanzada en 2007, hace más de diez años! es fácil de trazar, analizar, registrar y compartir sus recorridos en bicicleta.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://ridewithgps.com/"
+          }
+        }
+      },
+      "RELIVE": {
+        "image": "/vibico-astro/aplicaciones/relieve.png",
+        "title": "RELIVE",
+        "description": "Vídeos gratis en 3D de tus actividades, registra tu posición GPS con la aplicación Relive ,funciona con otros trackers GPS.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://www.relive.com/es"
+          }
+        }
+      },
+      "FIND PENGUINS": {
+        "image": "/vibico-astro/aplicaciones/findpenguins.png",
+        "title": "FIND PENGUINS",
+        "description": "Es una plataforma que rastrea tus viajes automáticamente de una forma hermosa. puede crear tu diario de viaje, tan sólo con tu teléfono en el bolsillo.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://findpenguins.com/"
+          }
+        }
+      },
+      "IOVERLANDER": {
+        "image": "/vibico-astro/aplicaciones/ioverlander.png",
+        "title": "IOVERLANDER",
+        "description": "Es una aplicación que almacena datos de los lugares para los viajeros, que incluye la ubicación de sitios ideales para acampar, hoteles, restaurantes, mecánicos, agua y otras categorías. Los detalles en la app se enumeran para cada lugar, incluyendo amenidades, las fotos y fechas de las coordenadas, además de encontrar diversos destinos. Todo el que utilice el programa puede agregar nuevos sitios turísticos y registrar su viaje.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://ioverlander.com/"
+          }
+        }
+      },
+      "WIKILOC": {
+        "image": "/vibico-astro/aplicaciones/wikiloc.png",
+        "title": "WIKILOC",
+        "description": "Crea tus propias rutas GPS con tu smartphone. Súbelas directamente a Wikiloc - Navegación Outdoor - Mapas offline gratuitos para tus aventuras al aire libre - Seguimiento en Vivo - Búsqueda por Zona de Paso",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://es.wikiloc.com/"
+          }
+        }
+      },
+      "GARMINCONNECT": {
+        "image": "/vibico-astro/aplicaciones/garminconnect.png",
+        "title": "GARMIN CONNECT",
+        "description": "La aplicación Garmin Connect es un recurso centralizado en el que podrás consultar datos sobre ejercicio y salud. No importa si estás entrenando para una carrera, si quieres mantener un estilo de vida activo o si simplemente quieres estar al tanto de tu salud, Garmin Connect te ofrece la información y la inspiración que necesitas para alcanzar tus objetivos.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://connect.garmin.com/"
+          }
+        }
+      },
+      "ROLLINGAROUND": {
+        "image": "/vibico-astro/aplicaciones/rollingaround.png",
+        "title": "ROLLIN GAROUND",
+        "description": "¿Eres un creador de rutas? Rolling Around proporciona una interfaz fácil de usar para actualizar directamente . GPX, gestione puntos de referencia y edite información crucial de rutas, ¡sin necesidad de intermediarios!.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://rollingaround.app/"
+          }
+        }
+      },
+      "MAPSME": {
+        "image": "/vibico-astro/aplicaciones/mapsme.png",
+        "title": "MAPS.ME",
+        "description": "Aplicación para acceder a mapas rápidos, detallados con navegación GPS disponibles totalmente sin conexión – elegida por más de 140 millones de viajeros en todo el mundo.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://maps.me/"
+          }
+        }
+      },
+      "KOMOOT": {
+        "image": "/vibico-astro/aplicaciones/komoot.jpg",
+        "title": "KOMOOT",
+        "description": "Vayas donde vayas, en bici o a pie, komoot tiene un recorrido para ti. Desde guías con aventuras de las que hacen historia hasta itinerarios en tu zona que se pueden filtrar por distancia, nivel de dificultad y acceso en transporte público, con komoot siempre encuentras algo nuevo que descubrir, tanto si está a la puerta de casa como al otro lado del mundo.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://komoot.com/"
+          }
+        }
+      },
+      "POCKET_EARTH": {
+        "image": "/vibico-astro/aplicaciones/pocketearth.png",
+        "title": "POCKET EARTH MAPS",
+        "description": "",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://pocketearth.com/"
+          }
+        }
+      },
+      "ORGANICMPAS": {
+        "image": "/vibico-astro/aplicaciones/organicmaps.jpg",
+        "title": "ORGANIC MPAS",
+        "description": "Es una aplicación libre para Android y iOS de mapas sin conexión para viajantes, turistas, senderistas y ciclistas basados en los datos cartográficos abiertos de OpenStreetMap. Es una bifurcación libre y centrada en la privacidad de la aplicación Maps.me (anteriormente conocida como MapsWithMe), mantenida por la misma gente que creó MapsWithMe en 2011.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://organicmaps.app/es/"
+          }
+        }
+      },
+      "VELOMAPAPL": {
+        "image": "/vibico-astro/aplicaciones/velomapa.jpg",
+        "title": "VELOMAPA.PL",
+        "description": "Mapa de bicicletas de Polonia. Descubre las mejores rutas, senderos y ciclovías.",
+        "links": {
+          "web": {
+            "label": "Pagina Web",
+            "url": "https://velomapa.pl/"
+          }
+        }
+      }
+    },
+    "mapas": {
+      "mapa_hospedajes": {
+        "title": "Mapa Anfitriones, casas ciclistas y hospedajes de pago",
+        "link_mapa": "https://www.google.com/maps/d/embed?mid=1IQbgolWEymR8E_DVyT_eykwp-KtGT-M&ehbc=2E312F",
+        "parrafos": {
+          "parrafo1": "Estas ubicaciones se usan únicamente como referencia del municipio o ciudad donde se encuentran.",
+          "parrafo2": "Las ubicaciones mostradas no corresponden a la dirección exacta de los anfitriones o casas ciclistas, por lo que no se debe acampar en estos puntos.",
+          "parrafo3": "Para solicitar los datos de contacto, es necesario estar registrado en el grupo de WhatsApp de VIBICO. Puedes contactarnos a través del número de WhatsApp al 315 573 0212.",
+          "parrafo4": "¿Eres anfitrión o casa ciclista y deseas unirte a esta red de apoyo? Escríbenos por WhatsApp al 315 573 0212."
+        },
+        "items": {
+          "1": "🚲 Anfitriones",
+          "2": "📍 Casas ciclista",
+          "3": "🏨 Hospedaje de pago"
+        }
+      },
+      "mapa_bicileterias": {
+        "title": "Mapa de Bicicleterías y almacenes deportivos",
+        "link_mapa": "https://www.google.com/maps/d/embed?mid=1Lew9qd_AuUiyM6PG2l0mo1e5yvXrTIc&ehbc=2E312F",
+        "parrafos": {
+          "parrafo1": "Aquí encuentran Bicicleterías y almacenes deportivos que han sido referenciados por viajeros en bicicleta.",
+          "parrafo2": "No nos hacemos responsables del mal uso que le puedan dar a este mapa, es completamente informativo"
+        },
+        "items": {
+          "1": "🚲 Bicicleterías",
+          "2": "👟 Almacenes deportivos",
+          "3": "🪛 Talleres soldadura"
+        }
+      },
+      "mapa_voluntariados": {
+        "title": "Mapa de Voluntariados",
+        "link_mapa": "https://www.google.com/maps/d/embed?mid=1IUQXOo9XhN-bhWCVhqT0ZM7DIX5qL74&ehbc=2E312F",
+        "parrafos": {
+          "parrafo1": "Los puntos de ubicación hacen referencia al nombre del municipio, o ciudad donde están ubicados los Voluntariados que están registrados con nosotros.",
+          "parrafo2": "Cada punto tiene su descripción y estamos en constante actualización. de acuerdo a la información que nos comparten los Administradores de los establecimientos o Viajeros.",
+          "parrafo3": "No nos hacemos responsables del mal uso que le puedan dar a este mapa, es completamente informativo",
+          "parrafo4": "Para solicitar los datos de contacto, es necesario estar registrado en el grupo de WhatsApp de VIBICO. Puedes contactarnos a través del número de WhatsApp al 315 573 0212."
+        },
+        "items": {
+          "1": "⚙️ Voluntariados"
+        }
+      }
+    },
+    "mas": {
+      "experiencias": {
+        "title": "Experiencias de Viajeros",
+        "link": "/experiencias"
+      },
+      "libros": {
+        "title": "Libros de Viajeros",
+        "link": "/libros"
+      },
+      "datoscuriosos": {
+        "title": "Datos Curiosos",
+        "link": "/datoscuriosos"
+      },
+      "viajerosdesaparecidos": {
+        "title": "Viajeros Desaparecidos",
+        "link": "/viajerosdesaparecidos"
+      },
+      "proyectos": {
+        "title": "Proyectos",
+        "link": "/proyectos"
+      },
+      "otropaises": {
+        "title": "Otros Países",
+        "link": "/otropaises"
+      }
+    }
+  },
+  "navigation": [
+    {
+      "label": "Inicio",
+      "href": "/"
+    },
+    {
+      "label": "Información",
+      "href": "/informacion",
+      "subitems": [
+        {
+          "label": "Información en Ruta",
+          "href": "/informacion#informacionenruta"
+        },
+        {
+          "label": "Números de Emergencia",
+          "href": "/informacion#numerosdeemergencia"
+        },
+        {
+          "label": "Grupos Red de Apoyo",
+          "href": "/informacion#gruposreddeapoyo"
+        },
+        {
+          "label": "Busqueda de Hospedaje",
+          "href": "/informacion#busquedadehospedaje"
+        },
+        {
+          "label": "Aplicaciones",
+          "href": "/informacion#aplicaciones"
+        }
+      ]
+    },
+    {
+      "label": "Mapas",
+      "href": "/mapas"
+    },
+    {
+      "label": "Comentarios",
+      "href": "/comentarios"
+    },
+    {
+      "label": "Mas",
+      "href": "/mas",
+      "subitems": [
+        {
+          "label": "Experiencias de Viajeros",
+          "href": "/experiencias"
+        },
+        {
+          "label": "Libros de Viajeros",
+          "href": "/libros"
+        },
+        {
+          "label": "Datos Curiosos",
+          "href": "/datoscuriosos"
+        },
+        {
+          "label": "Viajeros Desaparecidos",
+          "href": "/viajerosdesaparecidos"
+        },
+        {
+          "label": "Proyectos",
+          "href": "/proyectos"
+        },
+        {
+          "label": "Otros Países",
+          "href": "/otropaises"
+        }
+      ]
+    },
+    {
+      "label": "Contacto",
+      "href": "/contacto"
+    }
+  ]
+}

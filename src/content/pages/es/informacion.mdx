@@ -3,7 +3,7 @@ title: "Información"
 description: "Bienvenido a VIBICO - Viajeros en Bicicleta Por Colombia"
 image: "public/imagen-principal.jpg"
 ---
-import config from '../../../config.json';
+import config from "../../../config/index.js";
 
 <div id="informacionenruta">
   <h2 class="px-1 text-2xl font-bold mb-10 text-primary text-center">
@@ -14,7 +14,7 @@ Información en Ruta reúne enlaces oficiales y recursos clave para cicloviajero
   <div class="grid grid-cols-1 md:grid-cols-5 gap-6 justify-items-center">
   {
   Object.entries(config.languages[props.lang].site.information).map(([key, item]) => (
-        <div class="max-w-64 bg-white rounded-2xl overflow-hidden shadow-md border border-neutral-200">
+        <div class="max-w-64 bg-secondary rounded-2xl overflow-hidden shadow-md border border-blue-800">
         <h3 class="text-sm font-bold mb-2 text-primary text-center">{item.title}</h3>
         <img
           src={item.image}
@@ -23,7 +23,7 @@ Información en Ruta reúne enlaces oficiales y recursos clave para cicloviajero
         />
       <div style="margin-top: -50px;" class="flex flex-col items-center text-center px-6 py-8">
         <details class="group">
-          <p class="text-sm text-neutral-700 leading-relaxed mb-2 line-clamp-3 group-open:line-clamp-none transition-all">
+          <p class="text-sm text-primary leading-relaxed mb-2 line-clamp-3 group-open:line-clamp-none transition-all">
            {item.description}
           </p>
           <summary
@@ -37,7 +37,7 @@ Información en Ruta reúne enlaces oficiales y recursos clave para cicloviajero
           Object.entries(item.links).map(([keys, link]) => (
             <a
               href={link.url} target="_blank" rel="noopener noreferrer"
-              class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-primary rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline">
+              class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline" >
               {link.label}
             </a>
           ))
