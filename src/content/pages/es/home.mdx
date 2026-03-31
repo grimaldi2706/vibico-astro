@@ -5,39 +5,13 @@ image: "public/imagen-principal.jpg"
 ---
 import config from "../../../config/index.js";
 import Home from "../../../components/pages/Home.astro";
+import LinkGrid from "../../../components/LinkGrid.astro";
 
 <Home />
 
 ## 📞 Contactos oficiales: 
 
-<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
-  {
-    Object.entries(config.common.contacts).map(([key, item]) => (
-      <div
-        style="
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          gap:10px;
-          padding:5px 5px;
-          width:45%;        /* 🔥 CLAVE: permite 2 por fila en celular */
-          max-width:200px;  /* mantiene tamaño estable en desktop */
-          background: #023E8A;
-          border:1px solid #00193ae8;
-          border-radius:10px;
-          box-shadow:0 2px 4px rgba(0,0,0,0.1);
-          transition:background 0.2s ease, transform 0.2s ease;"
-        onmouseover="this.style.background='#023d8a94'; this.style.transform='scale(1.02)'"
-        onmouseout="this.style.background='#023E8A'; this.style.transform='scale(1)'">
-
-        <img src={item.image} alt={item.label} width="35" />
-        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#f7f2f2ff', fontWeight: 500 }}>
-          {item.label}
-        </a>
-      </div>
-    ))
-  }
-</div>
+<LinkGrid data={config.common.contacts} />
 
 
 ## 📌 ¿Qué encontrarás aquí?
@@ -50,34 +24,7 @@ import Home from "../../../components/pages/Home.astro";
 
 ## 💻 Principales redes sociales de la red Vibico
 
-<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
-  {
-    Object.entries(config.common.social).map(([key, item]) => (
-      <div
-        style="
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          gap:10px;
-          padding:5px 5px;
-          width:45%;        /* 🔥 CLAVE: permite 2 por fila en celular */
-          max-width:200px;  /* mantiene tamaño estable en desktop */
-          background: #023E8A;
-          border:1px solid #00193ae8;
-          border-radius:10px;
-          box-shadow:0 2px 4px rgba(0,0,0,0.1);
-          transition:background 0.2s ease, transform 0.2s ease;"
-        onmouseover="this.style.background='#023E8A'; this.style.transform='scale(1.02)'"
-        onmouseout="this.style.background='#023E8A'; this.style.transform='scale(1)'">
-
-        <img src={item.image} alt={item.label} width="35" />
-        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#f7f2f2ff', fontWeight: 500 }}>
-          {item.label}
-        </a>
-      </div>
-    ))
-  }
-</div>
+<LinkGrid data={config.common.social} />
 
 
 ## 🌱 Promovemos la movilidad sostenible
@@ -93,34 +40,7 @@ tiene costos tecnológicos.
 Tu **aporte voluntario** nos ayuda a continuar con esta labor y, en el
 futuro, desarrollar una **aplicación móvil para viajeros en bicicleta**.
 
-<div style="display:flex; justify-content:center; gap:16px; margin:16px; flex-wrap:wrap;">
-  {
-    Object.entries(config.common.payment).map(([key, item]) => (
-      <div
-        style="
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          gap:10px;
-          padding:5px 5px;
-          width:45%;        /* 🔥 CLAVE: permite 2 por fila en celular */
-          max-width:200px;  /* mantiene tamaño estable en desktop */
-          background: #023E8A;
-          border:1px solid #00193ae8;
-          border-radius:10px;
-          box-shadow:0 2px 4px rgba(0,0,0,0.1);
-          transition:background 0.2s ease, transform 0.2s ease;"
-        onmouseover="this.style.background='#023E8A'; this.style.transform='scale(1.02)'"
-        onmouseout="this.style.background='#023E8A'; this.style.transform='scale(1)'">
-
-        <img src={item.image} alt={item.label} width="35" />
-        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#f7f2f2ff', fontWeight: 500 }}>
-          {item.label}
-        </a>
-      </div>
-    ))
-  }
-</div>
+<LinkGrid data={config.common.payment} />
 
 **¡Gracias por tu apoyo!**
 
