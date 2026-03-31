@@ -1016,11 +1016,129 @@
     "mas": {
       "experiencias": {
         "title": "Experiencias de Viajeros",
-        "link": "/experiencias"
+        "link": "/mas#experiencias",
+        "datos_viajeros": {
+          "viajeroslowcosteros": {
+            "title": "Fronteras Terrestres Rumichaca",
+            "description": "Como Cruzar entre Colombia y Ecuador",
+            "image": "/vibico-astro/experiencias/viajeroslowcosteros.png",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://viajeroslowcosteros.com/frontera-terrestre-rumichaca/"
+              }
+            }
+          },
+          "Cameron_Williams": {
+            "title": "Tapon del Darien en Barco",
+            "description": "Moverse por el tapon del darien en barco",
+            "image": "/vibico-astro/experiencias/cameron_williams.png",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://docs.google.com/document/d/e/2PACX-1vTKTU4UZPMomVXPPe9E1ncYMShr4EvKNY7Gv53MUw8SG7-ypElKYOCvjKLfsvAm3bU3jibZTQ-PHhDF/pub#h.epi2gjan3fro"
+              }
+            }
+          },
+          "VELOAMERICA": {
+            "title": "Veloamerica",
+            "description": "La Amazonia Colombiana",
+            "image": "/vibico-astro/experiencias/veloamerica.png",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://velomerica.org/blog/colombia/amazonia/"
+              }
+            }
+          },
+          "KumanBike": {
+            "title": "KumanBike",
+            "description": "Rutas por colombia",
+            "image": "/vibico-astro/experiencias/KumanBike.JPG",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://kumanbike.blogspot.com/"
+              }
+            }
+          },
+          "GoBikeCamping": {
+            "title": "GoBikeCamping",
+            "description": "Rutas por colombia",
+            "image": "/vibico-astro/experiencias/GoBikeCamping.png",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://gobikecamping.com/"
+              },
+              "instagram": {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/spencexyz"
+              }
+            }
+          },
+          "Jeff_Miller_extencion_visa_colombia": {
+            "title": "Extensión de visa en Colombia",
+            "description": "Extensión de visa en Colombia",
+            "image": "/vibico-astro/experiencias/Jeff_Miller.png",
+            "links": {
+              "web": {
+                "label": "Blog",
+                "url": "/vibico-astro/experiencias/Jeff_Miller_extencion_visa_colombia"
+              }
+            }
+          },
+          "Robert_cruzar_a_panama_desde_necocli_colombia": {
+            "title": "Cruzar a Panama desde Necocli",
+            "description": "Cruzar a Panama desde Necocli",
+            "image": "/vibico-astro/experiencias/Robert_cruzar_a_panama_desde_necocli_colombia_1.png",
+            "links": {
+              "web": {
+                "label": "Blog",
+                "url": "/vibico-astro/experiencias/Robert_cruzar_a_panama_desde_necocli_colombia"
+              }
+            }
+          },
+          "Leo_Dure_de_colombia_a_panama": {
+            "title": "De Colombia a Panamá",
+            "description": "De Colombia a Panamá",
+            "image": "/vibico-astro/experiencias/Leo_Dure.jpg",
+            "links": {
+              "web": {
+                "label": "Blog",
+                "url": "/vibico-astro/experiencias/Leo_Dure_de_colombia_a_panama"
+              }
+            }
+          },
+          "Lucca_darien_gap": {
+            "title": "Darien Gap",
+            "description": "Darien Gap - My experience South to North",
+            "image": "/vibico-astro/experiencias/Lucca.png",
+            "links": {
+              "web": {
+                "label": "Blog",
+                "url": "/vibico-astro/experiencias/Lucca_darien_gap"
+              }
+            }
+          }
+        }
       },
       "libros": {
         "title": "Libros de Viajeros",
-        "link": "/libros"
+        "link": "/mas#libros",
+        "datos_libros": {
+          "1": {
+            "title": "Libro 1",
+            "description": "Descripción del libro 1",
+            "image": "/vibico-astro/libros/libro1.png",
+            "links": {
+              "web": {
+                "label": "Pagina Web",
+                "url": "https://viajeroslowcosteros.com/frontera-terrestre-rumichaca/"
+              }
+            }
+          }
+        }
       },
       "datoscuriosos": {
         "title": "Datos Curiosos",
@@ -1085,11 +1203,11 @@
       "subitems": [
         {
           "label": "Experiencias de Viajeros",
-          "href": "/experiencias"
+          "href": "/mas#experiencias"
         },
         {
           "label": "Libros de Viajeros",
-          "href": "/libros"
+          "href": "/mas#libros"
         },
         {
           "label": "Datos Curiosos",
