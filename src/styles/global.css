@@ -4,6 +4,7 @@
 @theme {
   --color-primary: rgb(209 213 219);
   --color-secondary: #023E8A;
+  --color-background: #020024;
   --font-sans: 'Inter', system-ui, sans-serif;
 }
 
