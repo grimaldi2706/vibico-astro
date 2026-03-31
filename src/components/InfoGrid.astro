@@ -1,0 +1,112 @@
+---
+interface Props {
+  data: Record<string, any>;
+  gridCols?: string;
+  cardType?: "info" | "emergency" | "support";
+}
+
+const {
+  data,
+  gridCols = "grid-cols-1 md:grid-cols-6",
+  cardType = "info",
+} = Astro.props;
+---
+
+<div class={`grid ${gridCols} gap-6 justify-items-center`}>
+  {
+    Object.entries(data).map(([key, item]) => {
+      if (cardType === "info") {
+        return (
+          <div class="w-full max-w-64 bg-secondary rounded-2xl overflow-hidden shadow-md border border-blue-800">
+            <h3 class="text-lg font-bold mt-4 mb-2 text-white text-center px-2">
+              {item.title}
+            </h3>
+            <img
+              src={item.image}
+              alt={item.title}
+              class="w-full h-56 object-cover px-2"
+            />
+            <div
+              style="margin-top: -50px;"
+              class="flex flex-col items-center text-center px-6 py-8"
+            >
+              <details class="group">
+                <p class="text-sm text-white leading-relaxed mb-2 line-clamp-3 group-open:line-clamp-none transition-all">
+                  {item.description}
+                </p>
+                <summary class="list-none cursor-pointer text-sm font-semibold text-blue-200 hover:underline mb-4">
+                  <span class="group-open:hidden">Ver más</span>
+                  <span class="hidden group-open:inline">Ver menos</span>
+                </summary>
+              </details>
+              {item.links &&
+                Object.entries(item.links).map(([keys, link]: any) => (
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-gray-900 rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+            </div>
+          </div>
+        );
+      }
+
+      if (cardType === "emergency") {
+        return (
+          <div class="w-full max-w-40 bg-secondary rounded-2xl border border-blue-800 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center p-4">
+            <h3 class="text-sm font-bold text-primary mb-3">{item.title}</h3>
+            <img
+              src={item.image}
+              alt={item.title}
+              class="w-20 h-20 object-contain mb-4"
+            />
+            <div class="mt-auto flex flex-col gap-2">
+              {item.tel &&
+                Object.entries(item.tel).map(([keys, link]: any) => (
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-gray-900 rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+            </div>
+          </div>
+        );
+      }
+
+      if (cardType === "support") {
+        return (
+          <div class="w-full max-w-52 bg-secondary rounded-2xl border border-blue-800 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center p-4">
+            <img
+              src={item.image}
+              alt={item.title}
+              class="w-20 h-20 object-contain mb-4"
+            />
+            <h3 class="text-sm font-bold text-white mb-3">{item.title}</h3>
+            <p class="text-sm text-neutral-100 mb-6">{item.description}</p>
+            <div class="mt-auto flex flex-col gap-2">
+              {item.links &&
+                Object.entries(item.links).map(([keys, link]: any) => (
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center px-6 py-2 my-2 text-sm font-medium !text-white bg-gray-900 rounded-full shadow-md hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 ease-in-out no-underline"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+            </div>
+          </div>
+        );
+      }
+    })
+  }
+</div>
