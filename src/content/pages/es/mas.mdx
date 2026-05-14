@@ -9,13 +9,13 @@ import InfoGrid from "../../../components/InfoGrid.astro";
 <div class="space-y-12 pb-6">
 
 <section id="experiencias">
-  <h2 class="text-center">Experiencias de Viajeros</h2>
-  <InfoGrid data={config.languages[props.lang].site.mas.experiencias.datos_viajeros} gridCols="grid-cols-1 md:grid-cols-4" cardType="info" />
+  <h2 class="text-center">{config.languages[props.lang].pages.mas.experiencias_title}</h2>
+  <InfoGrid data={config.languages[props.lang].pages.mas.data.experiencias.datos_viajeros} gridCols="grid-cols-1 md:grid-cols-4" cardType="info" />
 </section>
 
 <section id="libros">
-  <h2 class="text-center">Libros de Viajeros</h2>
-  <InfoGrid data={config.languages[props.lang].site.mas.libros.datos_libros} gridCols="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5" cardType="support" />
+  <h2 class="text-center">{config.languages[props.lang].pages.mas.libros_title}</h2>
+  <InfoGrid data={config.languages[props.lang].pages.mas.data.libros.datos_libros} gridCols="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5" cardType="support" />
 </section>
 
 </div>

@@ -1,0 +1,52 @@
+{
+  "contacts_title": "📞 Official Contacts",
+  "contacts_desc": "Direct channels to communicate with the VIBICO team.",
+  "what_title": "What will you find here?",
+  "what_desc": "Everything you need to plan your bike trip through Colombia and Latin America.",
+  "what_cards": [
+    {
+      "icon": "🛣️",
+      "title": "Detailed Routes",
+      "text": "Interactive maps with elevation profiles, campsites, distances and points of interest. Find the ideal route for your level and bike type."
+    },
+    {
+      "icon": "📜",
+      "title": "Travel Tips",
+      "text": "Practical guides on essential gear, packing techniques, road nutrition, road safety, travel insurance, and climate recommendations for cycling in Colombia."
+    },
+    {
+      "icon": "📞",
+      "title": "Emergency Numbers",
+      "text": "Complete directory of key contacts: highway police, ambulances, firefighters, civil defense, traveler assistance hotlines organized by region."
+    },
+    {
+      "icon": "📚",
+      "title": "Traveler Information",
+      "text": "Everything about border crossings, immigration requirements, visa extensions, pet entry, mandatory vaccines, and documentation needed to travel between countries."
+    },
+    {
+      "icon": "📝",
+      "title": "Traveler Experiences",
+      "text": "Real stories, travel logs, and recommendations from cyclotourists who have already ridden these routes. Learn from their successes and mistakes."
+    },
+    {
+      "icon": "🌱",
+      "title": "Sustainable Mobility",
+      "text": "We promote the use of bicycles as a means of transport and responsible tourism."
+    }
+  ],
+  "social_title": "💻 Social Networks",
+  "social_desc": "Follow us on our networks and be part of the community.",
+  "support_title": "Support Our Network",
+  "support_desc": "Our services are **free**, but keeping the platform active has technological costs. Your **voluntary contribution** helps us continue this work and develop a **mobile app for bike travelers**.",
+  "support_thanks": "Thank you for your support!",
+  "important_title": "Important",
+  "important_items": [
+    "We are not responsible for losses, damages, or injuries during trips or stays.",
+    "This page serves informational and educational purposes. Misuse of the information is the responsibility of each user."
+  ],
+  "footer_ad": "🪧 Advertising Space — Advertise with us",
+  "footer_tagline": "🚵‍♀️ Join the adventure and discover Colombia on two wheels! 🚲",
+  "footer_founder": "Founder of the VIBICO network",
+  "footer_founder_name": "Ferney Torres"
+}

@@ -9,16 +9,15 @@ import MapList from "../../../components/MapList.astro";
 <div class="space-y-12 pb-6">
 
 <section>
-  <h2 class="text-center">🗺️ Mapas</h2>
+  <h2 class="text-center">{config.languages[props.lang].pages.mapas.title}</h2>
   <p class="text-sm text-slate-400 text-center max-w-2xl mx-auto mb-8">
-    Los <strong>Mapas de VIBICO</strong> son una herramienta colaborativa para viajeros en bicicleta que muestra anfitriones, casas ciclistas y bicicleterías en Colombia.
-    Es un mapa interactivo en Google Maps con puntos recomendados por la comunidad.
+    {config.languages[props.lang].pages.mapas.desc}
   </p>
-  <MapList data={config.languages[props.lang].site.mapas} />
+  <MapList data={config.languages[props.lang].pages.mapas.data} />
 </section>
 
 <section>
-  <h3 class="text-lg font-semibold text-white text-center mb-6">Contáctanos si quieres ser anfitrión, casa ciclista o deseas unirte a esta red de apoyo:</h3>
+  <h3 class="text-lg font-semibold text-white text-center mb-6">{config.languages[props.lang].pages.mapas.cta}</h3>
   <LinkGrid data={config.common.contacts} />
 </section>
 

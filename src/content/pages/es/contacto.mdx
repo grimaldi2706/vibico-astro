@@ -6,15 +6,15 @@ image: "public/imagen-principal.jpg"
 import config from "../../../config/index.js";
 import LinkGrid from "../../../components/LinkGrid.astro";
 
-## 📞 Contactos oficiales: 
+## {config.languages[props.lang].pages.contacto.sections[0].title}
 
 <LinkGrid data={config.common.contacts} />
 
-## 💻 Principales redes sociales de la red Vibico
+## {config.languages[props.lang].pages.contacto.sections[1].title}
 
 <LinkGrid data={config.common.social} />
 
-## 🤝 Colaboradores
+## {config.languages[props.lang].pages.contacto.sections[2].title}
 
 <div style="display: inline-flex; flex-direction: row; align-items: center; gap: 1rem; margin-top: 1.5rem; padding: 1rem; border-radius: 1rem; background: #101828; border: 1px solid #090909; position: relative; overflow: hidden; max-width: 400px; width: 100%;">
 
@@ -28,21 +28,21 @@ import LinkGrid from "../../../components/LinkGrid.astro";
 
   <div style="display: flex; flex-direction: column; gap: 0.25rem; flex: 1; min-width: 0;">
     <span style="font-size: 16px; font-weight: 700; color: #10b981; text-transform: uppercase; letter-spacing: 0.08em;">
-      Desarrollador
+      {config.languages[props.lang].pages.contacto.sections[2].developer}
     </span>
     <strong style="font-size: 14px; font-weight: 600; color: #0f172a; margin: 0;">
-      Grimaldi Cuaical Gomez
+      {config.languages[props.lang].pages.contacto.sections[2].developer_name}
         <a 
             href="https://grimaldi2706.github.io/portafolio-astro/" 
             style="font-size: 12px;"
             >
-            Portafolio
+            {config.languages[props.lang].pages.contacto.sections[2].portfolio}
         </a>
         <a 
             href="mailto:grimaldi.cgomez@gmail.com"
             style="font-size: 12px;"
             >
-            grimaldi.cgomez@gmail.com
+            {config.languages[props.lang].pages.contacto.sections[2].email}
         </a>
     </strong>
   </div>

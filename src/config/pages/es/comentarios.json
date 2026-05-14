@@ -1,0 +1,18 @@
+{
+  "sections": [
+    {
+      "title": "📊 Comentarios de la comunidad",
+      "subtitle": "Opiniones de otros viajeros",
+      "desc": "Estos son algunos comentarios compartidos por cicloviajeros que han usado la red VIBICO durante sus recorridos."
+    },
+    {
+      "title": "📝 Déjanos tu opinión",
+      "subtitle": "¿Cómo fue tu experiencia con la red VIBICO?",
+      "desc": "Cuéntanos cómo te pareció nuestra red de apoyo al momento de viajar por Colombia y en qué creemos que podemos mejorar."
+    },
+    {
+      "title": "🤝 Gracias por tu apoyo",
+      "desc": "Cada comentario nos ayuda a mejorar la red y a seguir apoyando a viajeros en bicicleta de manera solidaria, segura y responsable."
+    }
+  ]
+}

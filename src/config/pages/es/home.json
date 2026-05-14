@@ -1,0 +1,52 @@
+{
+  "contacts_title": "📞 Contactos oficiales",
+  "contacts_desc": "Canales directos para comunicarte con el equipo de VIBICO.",
+  "what_title": "¿Qué encontrarás aquí?",
+  "what_desc": "Todo lo que necesitas para planificar tu viaje en bicicleta por Colombia y Latinoamérica.",
+  "what_cards": [
+    {
+      "icon": "🛣️",
+      "title": "Rutas detalladas",
+      "text": "Mapas interactivos con altimetría, perfiles de elevación, campamentos, distancias y puntos de interés. Encuentra la ruta ideal según tu nivel y tipo de bicicleta."
+    },
+    {
+      "icon": "📜",
+      "title": "Consejos de viaje",
+      "text": "Guías prácticas sobre equipamiento esencial, técnicas de carga, nutrición en ruta, seguridad vial, seguros de viaje y recomendaciones de climas y temporadas para pedalear en Colombia."
+    },
+    {
+      "icon": "📞",
+      "title": "Números de Emergencia",
+      "text": "Directorio completo de contactos clave: policía de carreteras, ambulancias, bomberos, defensa civil, líneas de atención al viajero y asistencia en carretera organizados por región."
+    },
+    {
+      "icon": "📚",
+      "title": "Información de Viajeros",
+      "text": "Todo sobre cruces fronterizos, requisitos migratorios, prórrogas de visa, ingreso de mascotas, vacunas obligatorias y documentación necesaria para viajar entre países de la región."
+    },
+    {
+      "icon": "📝",
+      "title": "Experiencias de Viajeros",
+      "text": "Relatos reales, bitácoras y recomendaciones de cicloturistas que ya recorrieron estas rutas. Aprende de sus aciertos, errores y descubre tips que solo se aprenden sobre la marcha."
+    },
+    {
+      "icon": "🌱",
+      "title": "Movilidad sostenible",
+      "text": "Promovemos el uso de la bicicleta como medio de transporte y turismo responsable."
+    }
+  ],
+  "social_title": "💻 Redes sociales",
+  "social_desc": "Síguenos en nuestras redes y forma parte de la comunidad.",
+  "support_title": "Apoya Nuestra Red",
+  "support_desc": "Nuestros servicios son **gratuitos**, pero mantener la plataforma activa tiene costos tecnológicos. Tu **aporte voluntario** nos ayuda a continuar con esta labor y a desarrollar una **aplicación móvil para viajeros en bicicleta**.",
+  "support_thanks": "¡Gracias por tu apoyo!",
+  "important_title": "Importante",
+  "important_items": [
+    "No nos hacemos responsables por pérdidas, daños o lesiones durante los viajes o estadías.",
+    "Esta página tiene fines informativos y educativos. El uso inadecuado de la información es responsabilidad de cada usuario."
+  ],
+  "footer_ad": "🪧 Espacio Publicitario — Pauta con nosotros",
+  "footer_tagline": "🚵‍♀️ ¡Únete a la aventura y descubre Colombia sobre dos ruedas! 🚲",
+  "footer_founder": "Fundador de la red VIBICO",
+  "footer_founder_name": "Ferney Torres"
+}

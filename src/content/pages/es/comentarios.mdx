@@ -6,17 +6,16 @@ image: "/vibico-astro/imagen-principal.jpg"
 
 import config from "../../../config/index.js";
 
-## 📊 Comentarios de la comunidad
+## {config.languages[props.lang].pages.comentarios.sections[0].title}
 <div class="max-w-6xl mx-auto mb-16">
   <div class="bg-background rounded-3xl md:p-1">
 
     <h3 class="text-xl font-bold text-neutral-900 mb-4">
-      Opiniones de otros viajeros
+      {config.languages[props.lang].pages.comentarios.sections[0].subtitle}
     </h3>
 
     <p class="text-neutral-600 mb-6">
-      Estos son algunos comentarios compartidos por cicloviajeros que han usado
-      la red VIBICO durante sus recorridos.
+      {config.languages[props.lang].pages.comentarios.sections[0].desc}
     </p>
 
     <div class="relative w-full h-[500px] rounded-2xl overflow-hidden">
@@ -32,18 +31,17 @@ import config from "../../../config/index.js";
 </div>
 
 
-## 📝 Déjanos tu opinión
+## {config.languages[props.lang].pages.comentarios.sections[1].title}
 
 <div class="max-w-7xl mx-auto mb-16 px-4">
   <div class="bg-background rounded-3xl p-6 md:p-1">
 
     <h3 class="text-xl font-bold text-neutral-900 mb-4">
-      ¿Cómo fue tu experiencia con la red VIBICO?
+      {config.languages[props.lang].pages.comentarios.sections[1].subtitle}
     </h3>
 
     <p class="text-neutral-600 mb-6">
-      Cuéntanos cómo te pareció nuestra red de apoyo al momento de viajar por
-      Colombia y en qué crees que podemos mejorar.
+      {config.languages[props.lang].pages.comentarios.sections[1].desc}
     </p>
 
     <div class="relative w-full min-h-[900px] rounded-2xl overflow-hidden">
@@ -57,9 +55,8 @@ import config from "../../../config/index.js";
   </div>
 </div>
 
-## 🤝 Gracias por tu apoyo
+## {config.languages[props.lang].pages.comentarios.sections[2].title}
 
 <p class="text-center text-neutral-600 max-w-2xl mx-auto">
-Cada comentario nos ayuda a mejorar la red y a seguir apoyando a viajeros en
-bicicleta de manera solidaria, segura y responsable.
+{config.languages[props.lang].pages.comentarios.sections[2].desc}
 </p>
