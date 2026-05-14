@@ -35,6 +35,12 @@ const themeColors = config.common.theme.colors;
 			href={import.meta.env.BASE_URL + "/logo-vibico.jpg"}
 		/>
 		<meta name="generator" content={Astro.generator} />
+
+		<!-- Google Fonts: Inter -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 		{image && <meta property="og:image" content={image} />}
 		<title>{fullTitle}</title>
 	</head>
