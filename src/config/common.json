@@ -88,10 +88,10 @@
   },
   "theme": {
     "colors": {
-      "primary": "#0075a2",
-      "secondary": "#33FF57",
-      "background": "#F0F0F0",
-      "text": "#333333"
+      "primary": "#1e293b",
+      "secondary": "#0075a2",
+      "background": "#020024",
+      "text": "#e2e8f0"
     }
   },
   "logo": "/logo-vibico.jpg"

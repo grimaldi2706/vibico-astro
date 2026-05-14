@@ -2,15 +2,17 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-primary: rgb(209 213 219);
-  --color-secondary: #023E8A;
-  --color-background: #020024;
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-background: var(--color-background);
+  --color-text: var(--color-text);
   --font-sans: 'Inter', system-ui, sans-serif;
 }
 
 @layer base {
   body {
-    background: #020024;
+    background: var(--color-background);
+    color: var(--color-text);
   }
 
   p {
@@ -20,7 +22,6 @@
   strong {
     color: #fdfdfd !important;
     font-weight: bold !important;
-
   }
 
   li {

@@ -18,6 +18,9 @@ const t =
 	config.languages.es;
 const description = Astro.props.description || t.site.description;
 const fullTitle = `${title} | ${t.site.title}`;
+
+// Theme colors from JSON
+const themeColors = config.common.theme.colors;
 ---
 
 <!doctype html>
@@ -35,7 +38,10 @@ const fullTitle = `${title} | ${t.site.title}`;
 		{image && <meta property="og:image" content={image} />}
 		<title>{fullTitle}</title>
 	</head>
-	<body class="flex flex-col min-h-screen">
+	<body
+		class="flex flex-col min-h-screen"
+		style={`--color-primary: ${themeColors.primary}; --color-secondary: ${themeColors.secondary}; --color-background: ${themeColors.background}; --color-text: ${themeColors.text};`}
+	>
 		<Header lang={lang} />
 		<main class="flex-grow container mx-auto px-2 py-2">
 			<slot />
