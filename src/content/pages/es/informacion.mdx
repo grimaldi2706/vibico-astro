@@ -6,75 +6,52 @@ image: "public/imagen-principal.jpg"
 import config from "../../../config/index.js";
 import InfoGrid from "../../../components/InfoGrid.astro";
 
-<div id="informacionenruta">
-  <h2 class="px-1 text-2xl font-bold mb-10 text-primary text-center">
+<div class="space-y-14 pb-6">
 
-    Información en Ruta
-  
-  </h2>
-  
-  Información en Ruta reúne enlaces oficiales y recursos clave para cicloviajeros, facilitando el acceso a trámites, normativas, salud, fronteras y el estado de las vías durante el viaje.
-
+<section id="informacionenruta">
+  <h2 class="text-center">Información en Ruta</h2>
+  <p class="text-sm text-slate-400 text-center max-w-2xl mx-auto mb-8">
+    Información en Ruta reúne enlaces oficiales y recursos clave para cicloviajeros, facilitando el acceso a trámites, normativas, salud, fronteras y el estado de las vías durante el viaje.
+  </p>
   <InfoGrid data={config.languages[props.lang].site.information} gridCols="grid-cols-1 md:grid-cols-5" cardType="info" />
+</section>
 
-</div>
-
-<div id="numerosdeemergencia" class="mt-16">
-  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
-
-    Números de Emergencia
-
-  </h2>
-
-  Contactos oficiales de emergencia en Colombia para atención inmediata en casos de accidentes, seguridad, salud y situaciones de riesgo durante tu viaje.
-
+<section id="numerosdeemergencia">
+  <h2 class="text-center">Números de Emergencia</h2>
+  <p class="text-sm text-slate-400 text-center max-w-2xl mx-auto mb-8">
+    Contactos oficiales de emergencia en Colombia para atención inmediata en casos de accidentes, seguridad, salud y situaciones de riesgo durante tu viaje.
+  </p>
   <InfoGrid data={config.languages[props.lang].site.emergency_numbers} gridCols="grid-cols-2 sm:grid-cols-3 lg:grid-cols-6" cardType="emergency" />
+</section>
 
-</div>
+<section id="gruposreddeapoyo">
+  <h2 class="text-center">Grupos de Red de Apoyo</h2>
+  <section class="mt-6">
+    <h3 class="text-xl font-bold text-white mb-2">
+      {config.languages[props.lang].site.red_de_apoyo.label}
+    </h3>
+    <p class="text-sm text-slate-400 mb-6">
+      {config.languages[props.lang].site.red_de_apoyo.description}
+    </p>
+    <InfoGrid data={config.languages[props.lang].site.red_de_apoyo.links} gridCols="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5" cardType="support" />
+  </section>
+</section>
 
-<div id="gruposreddeapoyo" class="mt-16">
-  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
-
-    Grupos de Red de Apoyo
-
-  </h2>
-  <section class="mb-12">
-      <h3 class="text-xl font-bold mb-2">
-        {config.languages[props.lang].site.red_de_apoyo.label}
-      </h3>
-
-      <p class="text-sm text-neutral-200 mb-6">
-        {config.languages[props.lang].site.red_de_apoyo.description}
-      </p>
-
-      <InfoGrid data={config.languages[props.lang].site.red_de_apoyo.links} gridCols="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5" cardType="support" />
-
-    </section>
-</div>
-
-<div id="busquedadehospedaje" class="mt-16">
-  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
-
-    Plataformas para la búsqueda de Hospedaje
-
-  </h2>
-  
-  Plataformas y comunidades digitales que facilitan la búsqueda de hospedaje, voluntariados e intercambio de alojamiento para viajeros y cicloviajeros.
-  
+<section id="busquedadehospedaje">
+  <h2 class="text-center">Plataformas para la búsqueda de Hospedaje</h2>
+  <p class="text-sm text-slate-400 text-center max-w-2xl mx-auto mb-8">
+    Plataformas y comunidades digitales que facilitan la búsqueda de hospedaje, voluntariados e intercambio de alojamiento para viajeros y cicloviajeros.
+  </p>
   <InfoGrid data={config.languages[props.lang].site.plataformas} gridCols="grid-cols-1 md:grid-cols-6" cardType="info" />
+</section>
 
-</div>
-
-<div id="aplicaciones" class="mt-16">
-  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
-    
-    Aplicaciones
-
-  </h2>
- 
-  Herramientas digitales que apoyan a cicloviajeros en navegación, planificación de rutas, registro de viajes y exploración del territorio.
- 
+<section id="aplicaciones">
+  <h2 class="text-center">Aplicaciones</h2>
+  <p class="text-sm text-slate-400 text-center max-w-2xl mx-auto mb-8">
+    Herramientas digitales que apoyan a cicloviajeros en navegación, planificación de rutas, registro de viajes y exploración del territorio.
+  </p>
   <InfoGrid data={config.languages[props.lang].site.aplicaciones} gridCols="grid-cols-1 md:grid-cols-6" cardType="info" />
+</section>
 
 </div>
 

@@ -6,26 +6,17 @@ image: "public/imagen-principal.jpg"
 import config from "../../../config/index.js";
 import InfoGrid from "../../../components/InfoGrid.astro";
 
-<div id="experiencias">
-  <h2 class="px-1 text-2xl font-bold mb-10 text-primary text-center">
+<div class="space-y-12 pb-6">
 
-    Experiencias de Viajeros
-  
-  </h2>
-  
+<section id="experiencias">
+  <h2 class="text-center">Experiencias de Viajeros</h2>
   <InfoGrid data={config.languages[props.lang].site.mas.experiencias.datos_viajeros} gridCols="grid-cols-1 md:grid-cols-4" cardType="info" />
+</section>
 
-</div>
-
-<div id="libros" class="mt-16">
-  <h2 class="text-2xl font-bold mb-10 text-primary text-center">
-
-    Libros de Viajeros
-
-  </h2>
-  
+<section id="libros">
+  <h2 class="text-center">Libros de Viajeros</h2>
   <InfoGrid data={config.languages[props.lang].site.mas.libros.datos_libros} gridCols="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5" cardType="support" />
-
+</section>
 
 </div>
 

@@ -42,7 +42,10 @@ const logoSrc = getPath(config.common.logo);
         alt="VIBICO Logo"
         class="h-12 w-auto rounded-full shadow-md group-hover:shadow-teal-500/20 transition-shadow duration-300 border border-slate-700"
       />
-      <span class="font-serif text-teal-100">{t.site.logoText}</span>
+      <span
+        class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 font-bold italic p-2"
+        >{t.site.logoText}</span
+      >
     </a>
 
     <div class="hidden md:flex items-center gap-8">

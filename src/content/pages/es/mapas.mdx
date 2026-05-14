@@ -6,13 +6,20 @@ import config from "../../../config/index.js";
 import LinkGrid from "../../../components/LinkGrid.astro";
 import MapList from "../../../components/MapList.astro";
 
-## 🗺️ Mapas
+<div class="space-y-12 pb-6">
 
-Los **Mapas de VIBICO** son una herramienta colaborativa para viajeros en bicicleta que muestra anfitriones, casas ciclistas y bicicleterías en Colombia.
-Es un mapa interactivo en Google Maps con puntos recomendados por la comunidad.
+<section>
+  <h2 class="text-center">🗺️ Mapas</h2>
+  <p class="text-sm text-slate-400 text-center max-w-2xl mx-auto mb-8">
+    Los <strong>Mapas de VIBICO</strong> son una herramienta colaborativa para viajeros en bicicleta que muestra anfitriones, casas ciclistas y bicicleterías en Colombia.
+    Es un mapa interactivo en Google Maps con puntos recomendados por la comunidad.
+  </p>
+  <MapList data={config.languages[props.lang].site.mapas} />
+</section>
 
-<MapList data={config.languages[props.lang].site.mapas} />
+<section>
+  <h3 class="text-lg font-semibold text-white text-center mb-6">Contáctanos si quieres ser anfitrión, casa ciclista o deseas unirte a esta red de apoyo:</h3>
+  <LinkGrid data={config.common.contacts} />
+</section>
 
-#### Contactanos si quieres ser anfitrión, casa ciclista o deseas unirte a esta red de apoyo:
-
-<LinkGrid data={config.common.contacts} />
+</div>
